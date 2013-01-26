@@ -4,6 +4,8 @@
 |:--|:--|:--|:--|:--|:--|
 | Ubuntu 11.10 / 12.04 | xterm | zsh | Sublime Text 2 | git | tmux |
 
+Feel free to grab what you like!
+
 ## Installation
 
 Get [homesick](http://github.com/technicalpickles/homesick) and enjoy.
@@ -16,3 +18,4 @@ $ homesick symlink js-coder/dotfiles
 ## Inspiration
 
 - [Sirupsen/dotfiles](https://github.com/Sirupsen/dotfiles)
+- [holman/dotfiles](https://github.com/holman/dotfiles)
