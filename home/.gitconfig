@@ -1,0 +1,34 @@
+[user]
+	name = Florian H.
+	email = jscoderr@gmail.com
+[push]
+	default = current
+[core]
+	excludesfile = ~/.gitignore
+[color]
+	ui = true
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[alias]
+	authenticate = ! ssh-add ~/id_rsa
+
+	a = add
+	aa = add -A
+	b = branch
+	c = commit -m
+	co = checkout
+	ca = commit -am
+	d = diff
+	h = help
+	l = log
+	p = push
+	pl = pull
+	r = reset
+	s = status
+	ss = status -s
+	t = tag
+
+	unstage = reset HEAD
+	uncommit = reset --soft HEAD^
