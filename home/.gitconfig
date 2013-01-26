@@ -13,7 +13,9 @@
 	remote = green
 [alias]
 	authenticate = ! ssh-add ~/id_rsa
-
+	auth = authenticate
+	unstage = reset HEAD
+	uncommit = reset --soft HEAD^
 	a = add
 	aa = add -A
 	b = branch
@@ -29,6 +31,3 @@
 	s = status
 	ss = status -s
 	t = tag
-
-	unstage = reset HEAD
-	uncommit = reset --soft HEAD^
