@@ -1,0 +1,7 @@
+export EDITOR=subl
+
+export CLOSURE_PATH=~/Downloads/closure-compiler
+
+export CHROME_BIN=/usr/bin/google-chrome
+export FIREFOX_BIN=/usr/bin/firefox
+export PHANTOMJS_BIN=/usr/bin/phantomjs

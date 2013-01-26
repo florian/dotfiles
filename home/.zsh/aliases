@@ -1,0 +1,39 @@
+alias b=bundle
+alias c=component
+alias e=subl
+alias g=git
+alias h=heroku
+alias i="sudo apt-get install"
+alias j=jobs
+alias k=killall
+alias m=make
+alias n=npm
+alias r=rake
+alias s=sudo
+alias t=top
+alias v=vim
+alias y=yeoman
+
+alias ci="component install"
+alias ni="npm install"
+alias gi="gem install"
+
+alias install="sudo apt-get install"
+alias update="sudo apt-get update"
+alias upgrade="sudo apt-get upgrade"
+
+alias ea="subl . &"
+alias gr="git repl"
+alias mk="mkdir -p"
+alias rs="rspec spec"
+
+alias reload!=". ~/.zshrc"
+alias r!=reload
+
+alias server="python -m SimpleHTTPServer"
+
+suffixes=(txt html erb haml slim jade css styl less sass scss js coffee rb php sh tex yml ini json xml)
+
+for suffix in $suffixes; do
+	alias -s $suffix=$EDITOR
+done

@@ -1,0 +1,14 @@
+# Autojump
+[[ -s ~/.autojump/etc/profile.d/autojump.zsh ]] && source ~/.autojump/etc/profile.d/autojump.zsh
+
+# RVM
+. "$HOME/.rvm/scripts/rvm"
+
+# NVM
+[[ -s /home/florian/.nvm/nvm.sh ]] && . /home/florian/.nvm/nvm.sh
+
+# tmux
+[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
+
+# hub alias
+eval "$(hub alias -s)"
