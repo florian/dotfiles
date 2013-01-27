@@ -1,0 +1,12 @@
+`$RANDOM` – random integer between 0 and 32767
+`watch`   – setInterval like
+`wc`      – count bytes, words or lines
+
+# Find files
+
+$ find . -type f -maxdepth 1
+$ find . -maxdepth 1 -type f \( ! -iname ".*" \)
+
+# `-n` most used commands
+
+history | awk '{a[$2]++ } END{for(i in a){print a[i] " " i}}'|sort -rn |head -n 20

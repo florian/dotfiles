@@ -1,0 +1,3 @@
+$ unzip file.zip
+$ tar -xvf file.tar
+$ tar -xvfz file.tar.gz
