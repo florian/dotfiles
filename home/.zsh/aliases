@@ -29,6 +29,7 @@ alias gr="git repl"
 alias mk="mkdir -p"
 alias sn="sudo npm"
 alias rs="rspec spec"
+alias stats=zsh_stats
 
 alias reload!=". ~/.zshrc"
 alias r!=reload
