@@ -1,7 +1,7 @@
 fpath=(~/.zsh/Completion $fpath)
 
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="doubleend"
+ZSH_THEME="apple"
 COMPLETION_WAITING_DOTS="true"
 HISTSIZE=100000
 
