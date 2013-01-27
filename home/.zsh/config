@@ -5,7 +5,7 @@ ZSH_THEME="doubleend"
 COMPLETION_WAITING_DOTS="true"
 HISTSIZE=100000
 
-plugins=(git)
+plugins=(bundler coffee command-not-found extract gem git git-extras heroku npm pass redis-cli rvm themes thor)
 
 source $ZSH/oh-my-zsh.sh
 
