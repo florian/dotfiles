@@ -19,8 +19,8 @@
 	aa = add -A
 	b = branch
 	c = commit -m
-	co = checkout
 	ca = commit -am
+	co = checkout
 	d = diff
 	h = help
 	l = log
