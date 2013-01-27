@@ -15,6 +15,10 @@ $ homesick clone js-coder/dotfiles
 $ homesick symlink js-coder/dotfiles
 ```
 
+## Stuff you might not know
+
+- [sheet](https://github.com/oscardelben/sheet): Text snippets for the command line.
+
 ## Inspiration
 
 - [Sirupsen/dotfiles](https://github.com/Sirupsen/dotfiles)
