@@ -13,7 +13,6 @@ alias s=sudo
 alias t=top
 alias v=vim
 alias w=watch
-alias y=yeoman
 
 alias ci="component install"
 alias ni="npm install"
