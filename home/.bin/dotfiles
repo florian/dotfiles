@@ -1,0 +1,3 @@
+# Pull and symlink dotfiles
+homesick pull js-coder/dotfiles
+homesick symlink js-coder/dotfiles
