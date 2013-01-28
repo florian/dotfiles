@@ -34,7 +34,7 @@ alias mkcd=take
 alias stats=zsh_stats
 
 alias reload!=". ~/.zshrc"
-alias r!=reload
+alias r!=reload!
 
 alias server="python -m SimpleHTTPServer"
 
