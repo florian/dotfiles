@@ -4,7 +4,7 @@ alias e=subl
 alias g=git
 alias h=heroku
 alias i="sudo apt-get install"
-alias j=jobs
+#     j: autojump
 alias k=killall
 alias m=make
 alias n=npm
@@ -13,6 +13,7 @@ alias s=sudo
 alias t=top
 alias v=vim
 alias w=watch
+#     x: extract
 
 alias ci="component install"
 alias ni="npm install"
