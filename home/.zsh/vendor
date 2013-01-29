@@ -5,7 +5,7 @@
 . "$HOME/.rvm/scripts/rvm"
 
 # NVM
-[[ -s /home/florian/.nvm/nvm.sh ]] && . /home/florian/.nvm/nvm.sh
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 
 # tmux
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
