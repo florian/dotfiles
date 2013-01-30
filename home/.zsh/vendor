@@ -10,5 +10,8 @@
 # tmux
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 
+# z jumper
+. `brew --prefix`/etc/profile.d/z.sh
+
 # hub alias
 eval "$(hub alias -s)"

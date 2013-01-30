@@ -1,10 +1,9 @@
-alias b=bundle
+alias b=brew
 alias c=component
 alias e=subl
 alias g=git
 alias h=heroku
-alias i="sudo apt-get install"
-#     j: autojump
+alias i="brew install"
 alias k=killall
 alias m=make
 alias n=npm
@@ -14,15 +13,17 @@ alias t=top
 alias v=vim
 alias w=watch
 #     x: extract
+#     z: directory jumper
 
 alias ci="component install"
 alias ni="npm install"
 alias gi="gem install"
 
-alias install="sudo apt-get install"
-alias update="sudo apt-get update"
-alias upgrade="sudo apt-get upgrade"
+alias install="brew install"
+alias update="brew update"
+alias upgrade="brew upgrade"
 
+alias bu=bundle
 alias cp="cp -r"
 alias ea="subl . &"
 alias gr="git repl"
@@ -36,8 +37,6 @@ alias stats=zsh_stats
 
 alias reload!=". ~/.zshrc"
 alias r!=reload!
-
-alias server="python -m SimpleHTTPServer"
 
 suffixes=(txt html erb haml slim jade css styl less sass scss js coffee rb php sh tex yml ini json xml)
 

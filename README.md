@@ -1,8 +1,9 @@
 # dotfiles \o/
 
-| OS | Terminal	| Shell	| Editor |Version control | Multiplexer |
-|:--|:--|:--|:--|:--|:--|
-| Ubuntu 11.10 / 12.04 | xterm | zsh | Sublime Text 2 | git | tmux |
+
+ OS             | Terminal | Shell | Editor         | Version control | Multiplexer
+--------------- | -------- | ----- |--------------- | --------------  | ----------- 
+ Mountain Lion | iTerm 2  | zsh   | Sublime Text 2 | git             | tmux
 
 Feel free to grab what you like!
 
