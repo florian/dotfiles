@@ -3,7 +3,7 @@
 
  OS             | Terminal | Shell | Editor         | Version control | Multiplexer
 --------------- | -------- | ----- |--------------- | --------------  | ----------- 
- Mountain Lion | iTerm 2  | zsh   | Sublime Text 2 | git             | tmux
+ Mountain Lion | iTerm2   | zsh   | Sublime Text 2 | git             | tmux
 
 Feel free to grab what you like!
 
