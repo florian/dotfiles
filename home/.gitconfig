@@ -25,6 +25,7 @@
 	h = help
 	l = log
 	p = push
+	pt = push --tags
 	pl = pull
 	r = reset
 	s = status
