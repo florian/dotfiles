@@ -3,5 +3,5 @@ TODO
 tmp/
 log/
 *.log
-.DS_STORE
+.DS_Store
 *.swp
