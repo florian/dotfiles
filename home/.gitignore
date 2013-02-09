@@ -3,3 +3,4 @@ TODO
 tmp/
 log/
 *.log
+.DS_STORE
