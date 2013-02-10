@@ -1,4 +1,4 @@
-export EDITOR=subl
+export EDITOR=vim
 
 export CLOSURE_PATH=~/Downloads/closure-compiler
 
