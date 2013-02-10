@@ -1,6 +1,6 @@
 alias b=brew
 alias c=component
-alias e=subl
+alias e=$EDITOR
 alias g=git
 alias h=heroku
 alias i="brew install"
