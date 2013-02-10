@@ -6,7 +6,7 @@ COMPLETION_WAITING_DOTS="true"
 HISTSIZE=100000
 TERM="screen-256color"
 
-plugins=(bundler brew cake coffee command-not-found extract gem git git-extras heroku history-substring-search npm osx pass redis-cli rvm themes thor zsh-syntax-highlighting)
+plugins=(bundler brew cake coffee command-not-found extract gem git git-extras heroku history-substring-search npm nyan osx pass redis-cli rvm themes thor zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
