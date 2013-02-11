@@ -31,3 +31,5 @@
 	s = status
 	ss = status -s
 	t = tag
+[credential]
+	helper = osxkeychain
