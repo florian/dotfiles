@@ -26,6 +26,7 @@
 	g = grep
 	h = help
 	i = init
+	k = !gitk
 	l = log
 	m = merge
 	p = push
