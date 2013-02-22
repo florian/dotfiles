@@ -11,6 +11,7 @@ plugins=(bundler brew cake coffee command-not-found extract gem git git-extras h
 
 antigen-theme apple
 antigen-bundle zsh-users/zsh-syntax-highlighting
+antigen-bundle zsh-users/zsh-completions src
 
 unsetopt correct_all
 
