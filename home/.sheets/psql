@@ -1,7 +1,0 @@
-Users
-$ sudo -u postgres createuser -P <user>
-$ sudo -u postgres dropuser <user>
-
-Databases
-$ sudo -u postgres createdb -O <user> <db>
-$ sudo -u postgres dropdb <user> <db>
