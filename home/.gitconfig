@@ -30,6 +30,7 @@
 	r = reset
 	s = status
 	ss = status -s
+	st = stash
 	t = tag
 [credential]
 	helper = osxkeychain
