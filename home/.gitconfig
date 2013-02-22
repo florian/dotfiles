@@ -29,7 +29,7 @@
 	l = log
 	m = merge
 	p = push
-	pt = push --tags
+	pt = "push; push --tags""
 	pl = pull
 	r = reset
 	rb = rebase
