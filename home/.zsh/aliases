@@ -37,6 +37,7 @@ alias stats=zsh_stats
 
 alias reload!=". ~/.zshrc"
 alias r!=reload!
+alias theme=antigen-theme
 
 suffixes=(txt html erb haml slim jade css styl less sass scss js coffee rb php sh tex yml ini json xml)
 

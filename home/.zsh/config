@@ -7,7 +7,7 @@ TERM="screen-256color"
 source "$HOME/.antigen/antigen.zsh"
 antigen-lib
 
-plugins=(bundler brew cake coffee command-not-found extract gem git git-extras heroku history-substring-search npm nyan osx pass redis-cli rvm themes thor zsh-syntax-highlighting)
+plugins=(bundler brew cake coffee command-not-found extract gem git git-extras heroku history-substring-search npm nyan osx pass redis-cli rvm thor zsh-syntax-highlighting)
 
 antigen-theme apple
 antigen-bundle zsh-users/zsh-syntax-highlighting
