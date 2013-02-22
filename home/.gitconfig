@@ -12,7 +12,7 @@
 	local = yellow
 	remote = green
 [alias]
-	auth = ! ssh-add ~/id_rsa
+	auth = !ssh-add ~/id_rsa
 	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
 	a = add
@@ -29,7 +29,7 @@
 	l = log
 	m = merge
 	p = push
-	pt = "push; push --tags"
+	pt = !git push && git  push --tags
 	pl = pull
 	r = reset
 	rb = rebase
