@@ -7,7 +7,7 @@ HISTSIZE=100000
 TERM="screen-256color"
 
 source $ZSH/oh-my-zsh.sh
-source "~/.antigen/antigen.zsh"
+source "$HOME/.antigen/antigen.zsh"
 antigen-lib
 
 plugins=(bundler brew cake coffee command-not-found extract gem git git-extras heroku history-substring-search npm nyan osx pass redis-cli rvm themes thor zsh-syntax-highlighting)
