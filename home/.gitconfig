@@ -44,3 +44,5 @@
 	w = !git watch
 [credential]
 	helper = osxkeychain
+[help]
+	autocorrect = 7
