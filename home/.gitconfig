@@ -5,12 +5,6 @@
 	default = current
 [core]
 	excludesfile = ~/.gitignore
-[color]
-	ui = true
-[color "branch"]
-	current = yellow reverse
-	local = yellow
-	remote = green
 [alias]
 	auth = !ssh-add ~/id_rsa
 	unstage = reset HEAD
@@ -51,3 +45,13 @@
 	autocorrect = 7
 [apply]
 	whitespace = fix
+[color]
+	ui = true
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
