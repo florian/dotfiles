@@ -1,7 +1,6 @@
 # dotfiles \o/
 
-
- OS             | Terminal | Shell | Editor               | Version control | Multiplexer
+OS              | Terminal | Shell | Editor               | Version control | Multiplexer
 --------------- | -------- | ----- | -------------------- | --------------  | -----------
  Mountain Lion | iTerm2   | zsh   | Sublime Text 2 / vim | git             | tmux
 
