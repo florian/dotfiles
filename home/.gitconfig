@@ -35,7 +35,7 @@
 	r = reset
 	rb = rebase
 	s = status
-	ss = status -s
+	ss = status -sb
 	st = stash
 	t = tag
 	watch = !watch --interval=1 git status
