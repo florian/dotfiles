@@ -3,7 +3,6 @@ fpath=(~/.zsh/Completion $fpath)
 COMPLETION_WAITING_DOTS="true"
 HISTSIZE=100000
 TERM="screen-256color"
-PROMPT='%~ %{$fg[red]%}$%{$reset_color%} '
 
 source "$HOME/.antigen/antigen.zsh"
 antigen-lib
@@ -16,3 +15,4 @@ antigen-bundle zsh-users/zsh-completions src
 unsetopt correct_all
 
 PATH="$HOME/.bin:$PATH"
+PROMPT='%~ %{$fg[red]%}$%{$reset_color%} '
