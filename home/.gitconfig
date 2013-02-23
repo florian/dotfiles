@@ -21,7 +21,7 @@
 	c = commit -m
 	ca = commit -am
 	co = checkout
-	d = diff
+	d = diff --word-diff=color
 	f = fetch
 	g = grep
 	h = help
