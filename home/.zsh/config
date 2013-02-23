@@ -3,13 +3,13 @@ fpath=(~/.zsh/Completion $fpath)
 COMPLETION_WAITING_DOTS="true"
 HISTSIZE=100000
 TERM="screen-256color"
+PROMPT='%~ %{$fg[red]%}$%{$reset_color%} '
 
 source "$HOME/.antigen/antigen.zsh"
 antigen-lib
 
 plugins=(cake command-not-found extract git-extras history-substring-search nyan osx pass redis-cli zsh-syntax-highlighting)
 
-antigen-theme apple
 antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen-bundle zsh-users/zsh-completions src
 
