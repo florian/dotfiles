@@ -18,7 +18,8 @@ $ homesick symlink js-coder/dotfiles
 
 ## Stuff you might not know
 
-- [sheet](https://github.com/oscardelben/sheet): Text snippets for the command line.
+- [vundle](https://github.com/gmarik/vundle): A plugin manager for vim.
+- [antigen](https://github.com/zsh-users/antigen) A plugin manager for zsh.
 
 ## Inspiration
 
