@@ -46,3 +46,5 @@
 	helper = osxkeychain
 [help]
 	autocorrect = 7
+[apply]
+	whitespace = fix
