@@ -42,7 +42,7 @@
 	ss = status -sb
 	st = stash
 	t = tag
-	watch = !watch --interval=1 git sb
+	watch = !watch --interval=1 git status -sb
 	w = !git watch
 [credential]
 	helper = osxkeychain
