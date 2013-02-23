@@ -36,6 +36,7 @@
 	pl = pull
 	r = reset
 	rb = rebase
+	re = revert
 	s = status
 	sl = log --oneline
 	ss = status -sb
