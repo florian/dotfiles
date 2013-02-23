@@ -21,8 +21,7 @@
 	c = commit -m
 	ca = commit -am
 	co = checkout
-	d = diff
-	f = fetch
+	d = diff f = fetch
 	g = grep
 	h = help
 	i = init
@@ -38,5 +37,7 @@
 	ss = status -s
 	st = stash
 	t = tag
+	watch = !watch --interval=1 git status
+	w = watch
 [credential]
 	helper = osxkeychain
