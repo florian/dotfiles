@@ -27,6 +27,7 @@
 	graph = log --oneline --graph
 	h = help
 	i = init
+	ig = ignore
 	k = !gitk
 	l = log
 	m = merge
