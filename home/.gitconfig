@@ -36,6 +36,7 @@
 	r = reset
 	rb = rebase
 	s = status
+	sl = log --oneline
 	ss = status -sb
 	st = stash
 	t = tag
