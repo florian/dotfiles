@@ -38,6 +38,6 @@
 	st = stash
 	t = tag
 	watch = !watch --interval=1 git status
-	w = watch
+	w = !git watch
 [credential]
 	helper = osxkeychain
