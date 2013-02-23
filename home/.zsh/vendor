@@ -1,6 +1,3 @@
-# Autojump
-[[ -s ~/.autojump/etc/profile.d/autojump.zsh ]] && source ~/.autojump/etc/profile.d/autojump.zsh
-
 # RVM
 . "$HOME/.rvm/scripts/rvm"
 
