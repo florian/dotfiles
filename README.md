@@ -16,6 +16,17 @@ $ homesick clone js-coder/dotfiles
 $ homesick symlink js-coder/dotfiles
 ```
 
+## Screenshots
+
+### Editor
+
+* tmux + tmuxinator
+* vim + NERDTree
+* git repl
+* Process that watches `git status -sb`
+
+![My editor environment](img/editor.png)
+
 ## Stuff you might not know
 
 - [vundle](https://github.com/gmarik/vundle): A plugin manager for vim.
