@@ -21,6 +21,7 @@
 	c = commit -m
 	ca = commit -am
 	co = checkout
+	cl = clone --reverse
 	d = diff --word-diff=color
 	f = fetch
 	g = grep
