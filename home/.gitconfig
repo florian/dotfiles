@@ -21,7 +21,7 @@
 	c = commit -m
 	ca = commit -am
 	co = checkout
-	d = diff --word-diff=color
+	d = diff
 	f = fetch
 	g = grep
 	graph = log --oneline --graph
@@ -49,3 +49,5 @@
 	autocorrect = 7
 [apply]
 	whitespace = fix
+[diff]
+	 word-diff = color
