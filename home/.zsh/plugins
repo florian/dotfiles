@@ -1,0 +1,17 @@
+antigen-bundles <<BUNDLES
+
+cake
+command-not-found
+extract
+git-extras
+history-substring-search
+nyan
+osx
+pass
+redis-cli
+zsh-syntax-highlighting
+
+antigen-bundle zsh-users/zsh-syntax-highlighting
+antigen-bundle zsh-users/zsh-completions src
+
+BUNDLES
