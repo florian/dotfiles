@@ -11,7 +11,7 @@ pass
 redis-cli
 zsh-syntax-highlighting
 
-antigen-bundle zsh-users/zsh-syntax-highlighting
-antigen-bundle zsh-users/zsh-completions src
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-completions src
 
 BUNDLES
