@@ -10,4 +10,10 @@ antigen-lib
 unsetopt correct_all
 
 PATH="$HOME/.bin:$PATH"
-PROMPT='%~ %{$fg[red]%}$%{$reset_color%} '
+
+# Can't decide on the prompt for now, so let's choose it randomly.
+if [[ $[${RANDOM}%2] == 0 ]]; then
+	PROMPT='%~ %{$fg[red]%}$%{$reset_color%} '
+else
+	PROMPT='%~ %{$fg[red]%}❯%{$reset_color%} '
+fi
