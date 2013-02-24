@@ -9,7 +9,6 @@ nyan
 osx
 pass
 redis-cli
-zsh-syntax-highlighting
 
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-completions src
