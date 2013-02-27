@@ -24,3 +24,8 @@ mvc () {
 ? () {
 	$1 --help
 }
+
+# Execute a command without any STDOUT output.
+quietly () {
+	$* >/dev/null 2>&1
+}

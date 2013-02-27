@@ -1,3 +1,0 @@
-# Execute a command without any STDOUT output.
-
-$* >/dev/null 2>&1
