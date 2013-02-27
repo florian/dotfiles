@@ -1,6 +1,0 @@
-# mv current
-
-b=$(basename $(pwd))
-cd ..
-mv $b $1
-cd $1

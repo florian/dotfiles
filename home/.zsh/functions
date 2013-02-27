@@ -12,3 +12,11 @@ tmp () {
 	mkdir -p $dir
 	cd $dir
 }
+
+# mv current
+mvc () {
+	local b=$(basename $(pwd))
+	cd ..
+	mv $b $1
+	cd $1
+}
