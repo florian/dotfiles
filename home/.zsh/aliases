@@ -6,6 +6,7 @@ alias g=git
 alias h=heroku
 alias i="brew install"
 alias k="killall -9"
+alias j=jobs
 alias m=make
 alias n=npm
 alias r=rake
