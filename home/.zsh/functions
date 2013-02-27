@@ -1,0 +1,9 @@
+code () {
+	cd ~/Dropbox/code/$1
+}
+
+tmp () {
+	dir=$/tmp/$1
+	mkdir -p $dir
+	cd $dir
+}
