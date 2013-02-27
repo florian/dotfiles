@@ -29,6 +29,7 @@ alias ea="subl . &"
 alias gr="git repl"
 alias mk="mkdir -p"
 alias sn="sudo npm"
+alias ss="sudo !!"
 alias rs="rspec spec"
 
 # oh-my-zsh stuff
