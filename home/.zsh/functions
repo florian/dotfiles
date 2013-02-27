@@ -1,3 +1,8 @@
+# Minor stuff. But it's faster to type than `~`.
+ch () {
+	cd ~/$1
+}
+
 code () {
 	cd ~/Dropbox/code/$1
 }
