@@ -21,6 +21,6 @@ mvc () {
 	cd $1
 }
 
-function ? () {
+? () {
 	$1 --help
 }
