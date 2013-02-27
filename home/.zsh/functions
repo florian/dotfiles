@@ -29,3 +29,9 @@ mvc () {
 quietly () {
 	$* >/dev/null 2>&1
 }
+
+# Pull, symlink and reload
+dotfiles () {
+	homesick pull js-coder/dotfiles
+	homesick symlink js-coder/dotfiles
+}

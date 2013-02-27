@@ -1,3 +1,0 @@
-# Pull, symlink and reload
-homesick pull js-coder/dotfiles
-homesick symlink js-coder/dotfiles
