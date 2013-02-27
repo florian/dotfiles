@@ -3,7 +3,7 @@ code () {
 }
 
 tmp () {
-	dir=$/tmp/$1
+	dir=~/tmp/$1
 	mkdir -p $dir
 	cd $dir
 }
