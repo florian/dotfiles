@@ -9,6 +9,7 @@ alias k="killall -9"
 alias j=jobs
 alias m=make
 alias n=npm
+alias p=pass
 alias r=rake
 alias s=sudo
 alias t=tmux
