@@ -10,7 +10,7 @@ alias m=make
 alias n=npm
 alias r=rake
 alias s=sudo
-alias t=top
+alias t=tmux
 alias v=vim
 alias w=watch
 #     x: extract
