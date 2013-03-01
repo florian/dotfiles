@@ -34,6 +34,7 @@ quietly () {
 dotfiles () {
 	homesick pull js-coder/dotfiles
 	homesick symlink js-coder/dotfiles
+	source ~/.zshrc
 }
 
 # https://github.com/paulirish/dotfiles/blob/master/.functions
