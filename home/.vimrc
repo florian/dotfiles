@@ -42,7 +42,7 @@ set textwidth=80
 set scrolloff=5 " Scroll distance at the top / bottom
 set wildmenu
 
-"File types
+" File types
 filetype off
 filetype plugin indent on
 
