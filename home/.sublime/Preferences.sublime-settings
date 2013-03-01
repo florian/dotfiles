@@ -1,0 +1,11 @@
+{
+	"caret_style": "phase",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
+	"highlight_line": true,
+	"ignored_packages": [],
+	"tab_size": 4,
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
