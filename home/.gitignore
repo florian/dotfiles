@@ -1,4 +1,5 @@
-*.sublime-*
+*.sublime-project
+*.sublime-workspace
 TODO
 tmp/
 log/
