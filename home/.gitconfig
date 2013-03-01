@@ -25,6 +25,7 @@
 	ig = ignore
 	k = !gitk
 	l = log
+	lo = log --oneline --graph --decorate
 	m = merge
 	p = push
 	pt = !git push && git  push --tags
