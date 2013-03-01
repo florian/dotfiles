@@ -2,7 +2,7 @@
 
 OS              | Terminal | Shell | Editor               | Version control | Multiplexer
 --------------- | -------- | ----- | -------------------- | --------------  | -----------
- Mountain Lion | iTerm2   | zsh   | Sublime Text 2 / vim | git             | tmux
+ Mountain Lion | iTerm2   | zsh   | Sublime Text 2 / Vim | git             | tmux
 
 Feel free to grab what you like!
 
@@ -20,7 +20,7 @@ $ homesick symlink js-coder/dotfiles
 ### Editor
 
 * tmux + tmuxinator
-* vim + NERDTree
+* Vim + NERDTree
 * git repl
 * Process that watches `git status -sb`
 
@@ -28,7 +28,7 @@ $ homesick symlink js-coder/dotfiles
 
 ## Stuff you might not know
 
-- [vundle](https://github.com/gmarik/vundle): A plugin manager for vim.
+- [vundle](https://github.com/gmarik/vundle): A plugin manager for Vim.
 - [antigen](https://github.com/zsh-users/antigen) A plugin manager for zsh.
 
 ## Inspiration
