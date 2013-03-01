@@ -37,6 +37,7 @@
 	ss = status -sb
 	st = stash
 	t = tag
+	u = unstage
 	watch = !watch --interval=1 git status -sb
 	w = !git watch
 [credential]
