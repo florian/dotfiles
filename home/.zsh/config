@@ -5,7 +5,7 @@ HISTSIZE=100000
 TERM="screen-256color"
 DISABLE_AUTO_TITLE=true
 
-source "$HOME/.antigen/antigen.zsh"
+source ~/.antigen/antigen.zsh
 antigen-lib
 
 unsetopt correct_all
