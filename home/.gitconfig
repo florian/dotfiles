@@ -39,7 +39,7 @@
 	u = unstage
 	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
-	watch = !watch git status -s
+	watch = !watch git status -sb
 	w = !git watch
 [credential]
 	helper = osxkeychain
