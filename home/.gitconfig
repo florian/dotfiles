@@ -7,8 +7,6 @@
 	excludesfile = ~/.gitignore
 [alias]
 	auth = !ssh-add ~/id_rsa
-	unstage = reset HEAD
-	uncommit = reset --soft HEAD^
 	a = add
 	aa = add -A
 	b = branch
@@ -39,6 +37,8 @@
 	st = stash
 	t = tag
 	u = unstage
+	unstage = reset HEAD
+	uncommit = reset --soft HEAD^
 	watch = !watch --interval=1 git status -s
 	w = !git watch
 [credential]
