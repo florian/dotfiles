@@ -35,7 +35,7 @@
 	sl = log --oneline
 	ss = status -sb
 	st = stash
-	t = tag
+	t = tag -a
 	u = unstage
 	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
