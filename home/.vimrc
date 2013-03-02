@@ -64,7 +64,6 @@ set matchpairs+=<:>
 
 " NERDTree config
 let NERDTreeShowHidden=1
-let g:nerdtree_tabs_open_on_console_startup=1
 
 " CtrlP config
 let g:ctrlp_show_hidden=1
