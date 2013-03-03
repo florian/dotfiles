@@ -8,6 +8,7 @@
 [alias]
 	a = add
 	aa = add -A
+	amend = commit --amend
 	auth = !ssh-add ~/id_rsa
 	b = branch
 	c = commit -m
