@@ -6,14 +6,14 @@
 [core]
 	excludesfile = ~/.gitignore
 [alias]
-	auth = !ssh-add ~/id_rsa
 	a = add
 	aa = add -A
+	auth = !ssh-add ~/id_rsa
 	b = branch
 	c = commit -m
 	ca = commit -am
-	co = checkout
 	cl = clone --reverse
+	co = checkout
 	d = diff --word-diff=color
 	f = fetch
 	g = grep
@@ -25,8 +25,8 @@
 	l = log
 	m = merge
 	p = push
-	pt = !git push && git  push --tags
 	pl = pull
+	pt = !git push && git  push --tags
 	r = reset
 	rb = rebase
 	re = revert
@@ -36,10 +36,10 @@
 	st = stash
 	t = tag
 	u = unstage
-	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
-	watch = !watch git status -sb
+	unstage = reset HEAD
 	w = !git watch
+	watch = !watch git status -sb
 [credential]
 	helper = osxkeychain
 [help]
