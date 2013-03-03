@@ -84,3 +84,9 @@ nnoremap j gj
 nnoremap k gk
 nmap <down> gj
 nmap <up> gk
+
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
