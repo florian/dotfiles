@@ -23,7 +23,6 @@
 	ig = ignore
 	k = !gitk
 	l = log
-	lo = log --oneline --graph --decorate
 	m = merge
 	p = push
 	pt = !git push && git  push --tags
@@ -32,7 +31,7 @@
 	rb = rebase
 	re = revert
 	s = status
-	sl = log --oneline
+	sl = shortlog
 	ss = status -sb
 	st = stash
 	t = tag -a
