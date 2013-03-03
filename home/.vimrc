@@ -35,7 +35,6 @@ set background=dark
 colorscheme solarized
 
 " Layout stuff
-syntax enable
 set number
 set cul " Highlight the current line
 set textwidth=80
@@ -45,6 +44,11 @@ set wildmenu
 " File types
 filetype off
 filetype plugin indent on
+
+" Syntax highlighting
+syntax enable
+au BufRead,BufNewFile,BufWrite *.json setf javascript
+au BufRead,BufNewFile,BufWrite {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Capfile,Guardfile,config.ru,.caprc,.irbrc,*.rake} setf ruby
 
 " Backup
 set noswapfile 
