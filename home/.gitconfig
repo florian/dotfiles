@@ -6,6 +6,7 @@
 [core]
 	excludesfile = ~/.gitignore
 [alias]
+	- = checkout -
 	a = add
 	aa = add -A
 	amend = commit --amend
@@ -15,6 +16,9 @@
 	ca = commit -am
 	cl = clone --reverse
 	co = checkout
+	co- = checkout -
+	cob = checkout -b
+	com = checkout master
 	d = diff --word-diff=color
 	f = fetch
 	g = grep
