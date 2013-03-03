@@ -21,7 +21,7 @@
 	h = help
 	i = init
 	ig = ignore
-	k = !gitk
+	k = !tig
 	l = log
 	m = merge
 	p = push
