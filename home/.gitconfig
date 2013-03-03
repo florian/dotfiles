@@ -30,6 +30,7 @@
 	pt = !git push && git  push --tags
 	r = reset
 	rb = rebase
+	rbi = rebase -i
 	re = revert
 	s = status
 	sl = shortlog
