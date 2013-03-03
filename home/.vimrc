@@ -58,8 +58,8 @@ set nobackup
 set smartindent
 set autoindent
 set noet ci pi sts=0 sw=4 ts=4 " Tabs, shown as 4 spaces
-autocmd BufReadPost * :DetectIndent
 autocmd Filetype {ruby,yaml} setlocal et sw=2 sts=2 " 2 spaces for Ruby and YAML
+autocmd BufReadPost * :DetectIndent
 
 " Search
 set smartcase " Case sensitive when uppercase is present
