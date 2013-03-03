@@ -57,6 +57,7 @@ set nobackup
 " Indentation
 set smartindent
 set autoindent
+set noet ci pi sts=0 sw=4 ts=4 " Tabs, shown as 4 spaces
 autocmd BufReadPost * :DetectIndent
 
 " Search
