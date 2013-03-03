@@ -6,7 +6,6 @@
 [core]
 	excludesfile = ~/.gitignore
 [alias]
-	- = checkout -
 	a = add
 	aa = add -A
 	amend = commit --amend
