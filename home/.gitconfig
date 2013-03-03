@@ -36,6 +36,7 @@
 	rba = rebase --abort
 	rbc = rebase --continue
 	rbi = rebase -i
+	rbs = rebase --skip
 	re = revert
 	s = status
 	sl = shortlog
