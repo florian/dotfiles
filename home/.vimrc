@@ -77,3 +77,4 @@ let g:Powerline_colorscheme = 'solarized256'
 
 " Mapping
 map <C-7> :TComment
+nnoremap <space> :
