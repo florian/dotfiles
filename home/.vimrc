@@ -78,6 +78,8 @@ let g:Powerline_colorscheme = 'solarized256'
 " Mapping
 map <C-7> :TComment
 nnoremap <space> :
+nnoremap <tab> %
+vnoremap <tab> %
 
 " Navigating in wrapped lines
 nnoremap j gj
