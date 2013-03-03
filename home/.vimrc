@@ -29,6 +29,7 @@ set mouse=a
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs
 set noeb vb t_vb=  " Disable sound
+set whichwrap=b,s,[,],<,>,h,l " Allow cursor to wrap between lines
 
 " Color scheme
 set background=dark
