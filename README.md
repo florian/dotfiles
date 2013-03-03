@@ -37,3 +37,4 @@ $ homesick symlink js-coder/dotfiles
 - [holman/dotfiles](https://github.com/holman/dotfiles)
 - [aziz/dotfiles](https://github.com/aziz/dotfiles)
 - [jweslley/dotfiles](https://github.com/jweslley/dotfiles)
+- [linduxed/dotfiles](https://github.com/linduxed/dotfiles)
