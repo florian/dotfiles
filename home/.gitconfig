@@ -34,7 +34,7 @@
 	sl = shortlog
 	ss = status -sb
 	st = stash
-	t = tag -a
+	t = tag
 	u = unstage
 	unstage = reset HEAD
 	uncommit = reset --soft HEAD^
