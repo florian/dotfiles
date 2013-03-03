@@ -64,6 +64,7 @@ autocmd BufReadPost * :DetectIndent
 " Search
 set smartcase " Case sensitive when uppercase is present
 set incsearch " Search as you type
+set gdefault  " Always use the g flag for search
 
 " Matching
 set matchpairs+=<:>
