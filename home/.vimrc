@@ -92,6 +92,10 @@ map <C-7> :TComment
 nnoremap <Tab> %
 vnoremap <Tab> %
 
+" Changing the case
+nmap <Leader>u gUl
+nmap <leader>l gul
+
 " Navigating in wrapped lines
 map j gj
 map k gk
