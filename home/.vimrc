@@ -86,8 +86,9 @@ let g:ctrlp_show_hidden=1
 let g:Powerline_colorscheme = 'solarized256'
 
 " Mapping
-map <C-7> :TComment
 nmap <Space> :
+map - <Leader>
+map <C-7> :TComment
 nnoremap <Tab> %
 vnoremap <Tab> %
 
