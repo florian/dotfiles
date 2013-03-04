@@ -58,6 +58,7 @@ filetype off
 filetype plugin indent on
 au BufRead,BufNewFile,BufWrite *.json setf javascript
 au BufRead,BufNewFile,BufWrite {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Capfile,Guardfile,config.ru,.caprc,.irbrc,*.rake} setf ruby
+au Filetype vim let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'", '`':'`'}
 
 " Backup
 set noswapfile
