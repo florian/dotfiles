@@ -10,6 +10,8 @@ antigen-lib
 
 unsetopt correct_all
 
+bindkey -v
+
 PATH="$HOME/.bin:$PATH"
 
 # Can't decide on the prompt for now, so let's choose it randomly.
