@@ -23,6 +23,7 @@ Bundle 'mru.vim'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'ciaranm/detectindent'
 Bundle 'tpope/vim-eunuch'
+Bundle 'vim-scripts/Toggle'
 
 " Basics
 set mouse=a
@@ -91,6 +92,7 @@ map - <Leader>
 map <C-7> :TComment
 nnoremap <Tab> %
 vnoremap <Tab> %
+
 
 " Changing the case
 nmap <Leader>u gUl
