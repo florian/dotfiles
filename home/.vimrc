@@ -32,6 +32,7 @@ set noeb vb t_vb=  " Disable sound
 set nojoinspaces   " No double space when joining lines
 set whichwrap=b,s,[,],<,>,h,l " Allow cursor to wrap between lines
 set showcmd
+set shortmess+=I   " Hide Vim startup message
 
 " Color scheme
 set background=dark
