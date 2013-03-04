@@ -64,7 +64,7 @@ autocmd Filetype {ruby,yaml} setlocal et sw=2 sts=2 " 2 spaces for Ruby and YAML
 autocmd BufReadPost * :DetectIndent
 
 " Search
-set smartcase " Case sensitive when uppercase is present
+set ignorecase
 set incsearch " Search as you type
 set gdefault  " Always use the g flag for search
 
