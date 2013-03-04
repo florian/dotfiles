@@ -27,6 +27,7 @@
 	ig = ignore
 	k = !tig
 	l = log --pretty=format:'%C(yellow)%h%Creset – %s %Cgreen(%cr)%Creset' --date=relative
+	lg = l --graph
 	m = merge
 	p = push
 	pl = pull
