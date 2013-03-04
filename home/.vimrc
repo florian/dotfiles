@@ -46,6 +46,10 @@ set textwidth=80
 set scrolloff=5 " Scroll distance at the top / bottom
 set wildmenu
 
+" Highlight extra whitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
 " File types
 filetype off
 filetype plugin indent on
@@ -53,7 +57,7 @@ au BufRead,BufNewFile,BufWrite *.json setf javascript
 au BufRead,BufNewFile,BufWrite {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Capfile,Guardfile,config.ru,.caprc,.irbrc,*.rake} setf ruby
 
 " Backup
-set noswapfile 
+set noswapfile
 set nobackup
 
 " Indentation
