@@ -81,15 +81,15 @@ let g:Powerline_colorscheme = 'solarized256'
 
 " Mapping
 map <C-7> :TComment
-nnoremap <space> :
+nmap <space> :
 nnoremap <tab> %
 vnoremap <tab> %
 
 " Navigating in wrapped lines
-nnoremap j gj
-nnoremap k gk
-nmap <down> gj
-nmap <up> gk
+map j gj
+map k gk
+map <down> gj
+map <up> gk
 
 " Easy window navigation
 map <C-h> <C-w>h
