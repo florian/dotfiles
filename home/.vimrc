@@ -38,6 +38,7 @@ set whichwrap=b,s,[,],<,>,h,l " Allow cursor to wrap between lines
 set showcmd
 set shortmess+=I   " Hide Vim startup message
 set autoread
+set backspace=2
 
 " Color scheme
 set background=dark
