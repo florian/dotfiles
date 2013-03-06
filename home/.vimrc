@@ -91,13 +91,16 @@ let g:ctrlp_show_hidden=1
 " Powerline config
 let g:Powerline_colorscheme = 'solarized256'
 
+" gitgutter config
+let g:gitgutter_enabled = 1
+highlight clear SignColumn
+
 " Mapping
 nmap <Space> :
 map - <Leader>
 map <C-7> :TComment
 nnoremap <Tab> %
 vnoremap <Tab> %
-
 
 " Changing the case
 nmap <Leader>u gUl
