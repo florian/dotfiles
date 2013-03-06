@@ -46,6 +46,7 @@
 	t = tag
 	u = unstage
 	uncommit = reset --soft HEAD^
+	unmodify = checkout --
 	unstage = reset HEAD
 	w = !git watch
 	watch = !watch git status -sb
