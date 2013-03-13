@@ -17,7 +17,7 @@ $ homesick symlink js-coder/dotfiles
 
 ## Screenshots
 
-### Editorhttps://github.com/js-coder/dotfiles#shell
+### Editor
 
 * tmux + tmuxinator
 * Vim + NERDTree
