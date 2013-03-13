@@ -17,7 +17,7 @@ $ homesick symlink js-coder/dotfiles
 
 ## Screenshots
 
-### Editor
+### Editorhttps://github.com/js-coder/dotfiles#shell
 
 * tmux + tmuxinator
 * Vim + NERDTree
@@ -34,8 +34,7 @@ $ homesick symlink js-coder/dotfiles
 * Custom `$PROMPT`
 * zsh-syntax-highlighting plugin
 
-![Dark shell](img/shell-dark.png)
-![Light shell](img/shell-light.png)
+![Dark / light shell](img/shell.png)
 
 ## Stuff you might not know
 
