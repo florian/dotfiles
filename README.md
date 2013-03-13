@@ -31,7 +31,7 @@ $ homesick symlink js-coder/dotfiles
 * iTerm2
 * Dark / light [solarized](http://ethanschoonover.com/solarized) theme
 * oh-my-zsh
-* Custom `PROMPT`
+* Custom `$PROMPT`
 * zsh-syntax-highlighting plugin
 
 ![Dark shell](img/shell-dark.png)
