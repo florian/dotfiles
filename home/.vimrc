@@ -24,7 +24,6 @@ Bundle 'jiangmiao/auto-pairs'
 Bundle 'ciaranm/detectindent'
 Bundle 'tpope/vim-eunuch'
 Bundle 'vim-scripts/Toggle'
-Bundle 'myusuf3/numbers.vim'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'ap/vim-css-color'
 
