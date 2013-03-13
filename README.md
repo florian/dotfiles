@@ -26,6 +26,17 @@ $ homesick symlink js-coder/dotfiles
 
 ![My editor environment](img/editor.png)
 
+### Shell
+
+* iTerm2
+* Dark / light [solarized](http://ethanschoonover.com/solarized) theme
+* oh-my-zsh
+* Custom `PROMPT`
+* zsh-syntax-highlighting plugin
+
+![Dark shell](img/shell-dark.png)
+![Light shell](img/shell-light.png)
+
 ## Stuff you might not know
 
 - [vundle](https://github.com/gmarik/vundle): A plugin manager for Vim.
