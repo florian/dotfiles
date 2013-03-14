@@ -9,6 +9,3 @@
 
 # z jumper
 . `brew --prefix`/etc/profile.d/z.sh
-
-# hub alias
-eval "$(hub alias -s)"
