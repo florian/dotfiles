@@ -28,6 +28,7 @@ Bundle 'ap/vim-css-color'
 
 " Basics
 set mouse=a
+set clipboard=unnamed
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs
 set noeb vb t_vb=  " Disable sound
