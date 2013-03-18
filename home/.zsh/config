@@ -8,7 +8,7 @@ DISABLE_AUTO_TITLE=true
 source ~/.antigen/antigen.zsh
 antigen-lib
 
-unsetopt correct_all
+#unsetopt correct_all
 
 bindkey -v
 
