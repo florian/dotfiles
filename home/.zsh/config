@@ -5,6 +5,10 @@ HISTSIZE=100000
 TERM="screen-256color"
 DISABLE_AUTO_TITLE=true
 
+# This is super awesome:
+# https://tomafro.net/2009/10/tip-cdpath-am-i-the-last-to-know
+CDPATH=(~ ~/Dropbox/code ~/code)
+
 source ~/.antigen/antigen.zsh
 antigen-lib
 
