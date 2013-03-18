@@ -17,6 +17,7 @@
 	co = checkout
 	co- = checkout -
 	cob = checkout -b
+	cof = checkout -f
 	com = checkout master
 	d = diff --word-diff=color
 	f = fetch
