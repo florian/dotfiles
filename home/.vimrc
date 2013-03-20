@@ -107,8 +107,11 @@ nmap <Leader>u gUl
 nmap <leader>l gul
 
 " Navigating in wrapped lines
-map j gj
-map k gk
+if !vimpager
+	nnoremap j gj
+	nnoremap k gk
+endif
+
 map <Down> gj
 map <Up> gk
 
