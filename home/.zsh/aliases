@@ -37,6 +37,7 @@ alias rs="rspec spec"
 # oh-my-zsh stuff
 alias mkcd=take
 alias stats=zsh_stats
+alias cat=vimcat
 
 alias reload!=". ~/.zshrc"
 alias r!=reload!
