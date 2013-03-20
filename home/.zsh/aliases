@@ -22,9 +22,9 @@ alias ci="component install"
 alias ni="npm install"
 alias gi="gem install"
 
-alias install="brew install"
-alias update="brew update"
-alias upgrade="brew upgrade"
+alias bi="brew install"
+alias bu="brew upgrade"
+alias bs="brew search"
 
 alias bu=bundle
 alias cp="cp -r"
