@@ -107,7 +107,7 @@ nmap <Leader>u gUl
 nmap <leader>l gul
 
 " Navigating in wrapped lines
-if !vimpager
+if !exists('vimpager')
 	nnoremap j gj
 	nnoremap k gk
 endif
