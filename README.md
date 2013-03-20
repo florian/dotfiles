@@ -38,8 +38,8 @@ $ homesick symlink js-coder/dotfiles
 
 ## Stuff you might not know
 
-- [vundle](https://github.com/gmarik/vundle) – A plugin manager for Vim.
 - [antigen](https://github.com/zsh-users/antigen) – A plugin manager for zsh.
+- [vundle](https://github.com/gmarik/vundle) – A plugin manager for Vim.
 - [vimpager](https://github.com/rkitover/vimpager) – Vim as a `$PAGER`
 - [vimcat](https://github.com/ofavre/vimcat) – cat with Vim's syntax
   highlighting
