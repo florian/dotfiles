@@ -96,14 +96,13 @@ faces () {
 }
 
 wifi () {
-
 	all_signal=(▁ ▃ ▅ ▇ )
 
 	current=`/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | egrep "agrCtlRSSI|state|lastTxRate| SSID" | tr "\\n" ";" | awk '{print $2,$4,$6,$8}'`
 
-	if [ "$current" == ""  ]
+	if [ "$current" == "" ]
 	then
-		echo "(WIFI off)"
+	  echo "(WIFI off)"
 	fi
 
 	strength=`echo $current | cut -d";" -f1-1 | cut -d" " -f2-`
@@ -112,21 +111,17 @@ wifi () {
 	name=`echo $current | cut -d";" -f4-4 | cut -d" " -f2-`
 
 	signal="( "
-	for (( j = 0; j < 4; j++  ))
+	for (( j = 0; j < 4; j++ ))
 	do
-		if [[ $j -eq 0 && $strength -gt -94  ]] || [[ $j -eq 1 && $strength -gt -92  ]] ||
-		  [[ $j -eq 2 && $strength -gt -86  ]] || [[ $j -eq 3 && $strength -gt -79  ]]
-	then
-		signal="${signal}${all_signal[$j]} "
-	else
-		signal="${signal}  "
-	fi
-done
-signal="${signal} )"
+	  if [[ $j -eq 0 && $strength -gt -94 ]] || [[ $j -eq 1 && $strength -gt -92 ]] ||
+	     [[ $j -eq 2 && $strength -gt -86 ]] || [[ $j -eq 3 && $strength -gt -79 ]]
+	  then
+	    signal="${signal}${all_signal[$j]} "
+	  else
+	    signal="${signal}  "
+	  fi
+	done
+	signal="${signal} )"
 
-echo "${name} ${bandwidth}Mbs ${signal}"
-		    fi
-		  done
-		  " )"
-		fi
-	}
+	echo "${name} ${bandwidth}Mbs ${signal}"
+}
