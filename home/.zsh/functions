@@ -22,7 +22,7 @@ mvc () {
 }
 
 ? () {
-	$1 --help
+	$* --help
 }
 
 # Execute a command without any STDOUT output.
