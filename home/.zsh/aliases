@@ -9,6 +9,7 @@ alias j=jobs
 alias k="killall -9"
 alias m=make
 alias n=npm
+#     o: open
 alias p=pass
 alias r=rake
 alias s=sudo
