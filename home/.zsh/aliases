@@ -43,9 +43,3 @@ alias cat=vimcat
 alias reload!=". ~/.zshrc"
 alias r!=reload!
 alias theme=antigen-theme
-
-suffixes=(txt html erb haml slim jade css styl less sass scss js coffee rb php sh tex yml ini json xml)
-
-for suffix in $suffixes; do
-	alias -s $suffix=$EDITOR
-done
