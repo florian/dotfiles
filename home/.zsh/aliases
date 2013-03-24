@@ -1,7 +1,7 @@
 alias b=brew
 alias c=component
 #     d: dirs -v # oh-my-zsh alias
-alias e=$EDITOR
+#     e: $EDITOR
 #     g: git
 alias h=heroku
 alias i="brew install"
