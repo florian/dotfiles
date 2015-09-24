@@ -1,8 +1,8 @@
 # dotfiles \o/
 
-OS              | Terminal | Shell | Editor               | Version control | Multiplexer
---------------- | -------- | ----- | -------------------- | --------------  | -----------
- Mountain Lion | iTerm2   | zsh   | Sublime Text 2 / Vim | git             | tmux
+| OS         | Terminal | Shell | Editor | Version control | Multiplexer |
+|------------+----------+-------+--------+-----------------+-------------|
+|  Yosemite | iTerm2   | zsh   | Vim    | git             | tmux        |
 
 Feel free to grab what you like!
 
