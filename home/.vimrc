@@ -33,6 +33,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'mileszs/ack.vim'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'mhinz/vim-startify'
 
 call vundle#end()
 filetype plugin indent on
@@ -93,6 +94,22 @@ set gdefault  " Always use the g flag for search
 
 " Matching
 set matchpairs+=<:>
+
+" Startify Plugin
+let g:startify_list_order = [
+  \ ['   Bookmarks:'],
+  \ 'bookmarks',
+  \ ['   LRU:'],
+  \ 'files',
+  \ ['   LRU within this dir:'],
+  \ 'dir',
+  \ ['   Sessions:'],
+  \ 'sessions',
+\ ]
+
+let g:startify_bookmarks = [
+	\ '~/.vimrc',
+\ ]
 
 " NERDTree config
 let NERDTreeShowHidden=1
