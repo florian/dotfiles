@@ -63,9 +63,6 @@ set scrolloff=5 " Scroll distance at the top / bottom
 set wildmenu
 au VimResized * :wincmd = " Resize split when the terminal is resized
 
-" Highlight extra whitespace
-CurrentLineWhitespaceOff soft
-
 " File types
 filetype off
 filetype plugin indent on
