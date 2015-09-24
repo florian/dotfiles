@@ -73,6 +73,7 @@ au Filetype vim let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'", '`':'`'}
 
 " Always open help in a new tab
 :cabbrev help tab help
+:cabbrev h tab help
 
 " Backup
 set noswapfile
