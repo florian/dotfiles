@@ -74,6 +74,9 @@ au BufRead,BufNewFile,BufWrite,BufEnter {Gemfile,Rakefile,Vagrantfile,Thorfile,P
 au BufRead,BufNewFile,BufWrite,BufEnter .zsh/* setf zsh
 au Filetype vim let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'", '`':'`'}
 
+" Always open help in a new tab
+:cabbrev help tab help
+
 " Backup
 set noswapfile
 set nobackup
@@ -112,6 +115,15 @@ map - <Leader>
 map <C-7> :TComment
 nnoremap <Tab> %
 vnoremap <Tab> %
+
+" Easier tab handling
+" alt+t
+nnoremap † :tabe<CR>
+inoremap † <Esc>:tabe<CR>
+
+" alt+w
+nnoremap ∑ :tabc<CR>
+inoremap ∑ <Esc>:tabc<CR>
 
 " Changing the case
 nmap <Leader>u gUl
