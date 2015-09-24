@@ -32,6 +32,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kien/ctrlp.vim'
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'mileszs/ack.vim'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()
 filetype plugin indent on
@@ -63,8 +64,7 @@ set wildmenu
 au VimResized * :wincmd = " Resize split when the terminal is resized
 
 " Highlight extra whitespace
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
+CurrentLineWhitespaceOff soft
 
 " File types
 filetype off
