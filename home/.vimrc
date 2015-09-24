@@ -6,19 +6,16 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'wavded/vim-stylus'
-Plugin 'mattn/emmet-vim'
+Plugin 'mhinz/vim-startify'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'kien/ctrlp.vim'
+Plugin 'mileszs/ack.vim'
 Plugin 'tomtom/tcomment_vim'
-Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'godlygeek/tabular'
 Plugin 'ervandew/supertab'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-rails'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'lepture/vim-velocity'
 Plugin 'mru.vim'
@@ -26,14 +23,18 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'ciaranm/detectindent'
 Plugin 'tpope/vim-eunuch'
 Plugin 'vim-scripts/Toggle'
-Plugin 'ap/vim-css-color'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'kien/ctrlp.vim'
 Plugin 'dhruvasagar/vim-table-mode'
-Plugin 'mileszs/ack.vim'
 Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'mhinz/vim-startify'
+
+Plugin 'mattn/emmet-vim'
+Plugin 'ap/vim-css-color'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'wavded/vim-stylus'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-rails'
 
 call vundle#end()
 filetype plugin indent on
@@ -130,6 +131,7 @@ map - <Leader>
 map <C-7> :TComment
 nnoremap <Tab> %
 vnoremap <Tab> %
+command Rel so ~/.vimrc
 
 " Easier tab handling
 " alt+t
