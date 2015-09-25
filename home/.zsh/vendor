@@ -9,3 +9,7 @@
 
 # z jumper
 . `brew --prefix`/etc/profile.d/z.sh
+
+# zsh substring search
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
