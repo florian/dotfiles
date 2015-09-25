@@ -14,7 +14,7 @@ alias p=pass
 alias r=rake
 alias s=sudo
 alias t=tmux
-alias v=vim
+alias v=nvim
 alias w=watch
 #     x: extract
 #     z: directory jumper
