@@ -10,7 +10,7 @@ DISABLE_AUTO_TITLE=true
 cdpath=(~ ~/Dropbox/code ~/code)
 
 source ~/.antigen/antigen.zsh
-antigen-lib
+antigen-use oh-my-zsh
 
 #unsetopt correct_all
 
