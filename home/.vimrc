@@ -168,6 +168,7 @@ hi TabLineSel   guifg=#666 guibg=#222 gui=bold ctermfg=231 ctermbg=4 cterm=bold
 hi TabLineFill  guifg=#999 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
 
 " change cursor in insert mode
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 " https://gist.github.com/andyfowler/1195581
 if exists('$TMUX')
   let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
