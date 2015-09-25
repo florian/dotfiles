@@ -43,7 +43,9 @@ filetype plugin indent on
 set mouse=a
 set clipboard=unnamed
 set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show Unicode glyphs
+if !has('nvim') " Set by default by nvim
+	set encoding=utf-8 " Necessary to show Unicode glyphs
+endif
 set noeb vb t_vb=  " Disable sound
 set nojoinspaces   " No double space when joining lines
 set whichwrap=b,s,[,],<,>,h,l " Allow cursor to wrap between lines
