@@ -74,8 +74,8 @@ au BufRead,BufNewFile,BufWrite,BufEnter .zsh/* setf zsh
 au Filetype vim let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'", '`':'`'}
 
 " Always open help in a new tab
-:cabbrev help tab help
 :cabbrev h tab help
+:cabbrev he help
 
 " Backup
 set noswapfile
@@ -131,7 +131,7 @@ map - <Leader>
 map <C-7> :TComment
 nnoremap <Tab> %
 vnoremap <Tab> %
-command Rel so ~/.vimrc
+command! Rel so ~/.vimrc
 
 " Easier tab handling
 " alt+t
