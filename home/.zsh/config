@@ -1,7 +1,10 @@
 fpath=(~/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-completions.git/src $fpath)
 
 COMPLETION_WAITING_DOTS="true"
+
 HISTSIZE=100000
+setopt HIST_IGNORE_SPACE
+
 TERM="screen-256color"
 DISABLE_AUTO_TITLE=true
 
