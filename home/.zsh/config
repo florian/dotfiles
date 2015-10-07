@@ -2,8 +2,11 @@ fpath=(~/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLA
 
 COMPLETION_WAITING_DOTS="true"
 
-HISTSIZE=100000
+HISTSIZE=10000000
+HISTFILE=~/.history
 setopt HIST_IGNORE_SPACE
+setopt SHARE_HISTORY
+setopt HIST_SAVE_NO_DUPS
 
 TERM="screen-256color"
 DISABLE_AUTO_TITLE=true
