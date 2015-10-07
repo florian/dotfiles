@@ -9,8 +9,8 @@ DISABLE_AUTO_TITLE=true
 # https://tomafro.net/2009/10/tip-cdpath-am-i-the-last-to-know
 cdpath=(~ ~/Dropbox/code ~/code)
 
-source ~/.antigen/antigen.zsh
-antigen-use oh-my-zsh
+#source ~/.antigen/antigen.zsh
+#antigen-use oh-my-zsh
 
 #unsetopt correct_all
 
@@ -18,4 +18,5 @@ bindkey -v
 
 PATH="$HOME/.bin:$PATH"
 
-PROMPT='%~ %{$fg[red]%}$%{$reset_color%} '
+autoload -U colors && colors
+PROMPT="%{$fg[yellow]%}%~%{$reset_color%} %{$fg[red]%}% $ %{$reset_color%}"

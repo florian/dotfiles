@@ -1,5 +1,5 @@
 # RVM
-. "$HOME/.rvm/scripts/rvm"
+[[ -s $HOME/.rvm/scripts/rvm ]] && . "$HOME/.rvm/scripts/rvm"
 
 # NVM
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh

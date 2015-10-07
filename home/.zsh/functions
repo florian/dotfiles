@@ -50,8 +50,6 @@ g () {
 		git status --short
 	fi
 }
-compdef g=git
-
 e () {
 	$EDITOR ${@:-.}
 }
