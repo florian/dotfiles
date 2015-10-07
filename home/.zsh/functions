@@ -20,6 +20,16 @@ ctrlp () {
 zle -N ctrlp
 bindkey "^p" ndkey "^p" ctrlp
 
+# Quickly change into directories using Ctrl+O
+ctrlo() {
+  dir="$(find ~ -type d | grep -v .git | grep -v node_modules | grep -v $USER/Library | grep -v "$USER/\." | fzf)";
+  [[ -d "$dir" ]] && cd $dir;
+  zle reset-prompt
+}
+
+zle -N ctrlo
+bindkey "^o" ctrlo
+
 # mv current
 mvc fi() {
 	local b=$(basename $(pwd))
