@@ -45,8 +45,8 @@ quietly () {
 
 # Pull, symlink and reload
 dotfiles () {
-	homesick pull js-coder/dotfiles
-	homesick symlink js-coder/dotfiles
+	homesick pull dotfiles
+	homesick symlink dotfiles
 	source ~/.zshrc
 }
 
