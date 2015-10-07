@@ -26,11 +26,17 @@ ctrlo() {
   [[ -d "$dir" ]] && cd $dir;
   zle reset-prompt
 }
-
 zle -N ctrlo
 bindkey "^o" ctrlo
 
-# mv current
+# Resume Vim with Ctrl+Z
+foreground-vi() {
+  fg %vi
+}
+zle -N foreground-vi
+bindkey '^Z' foreground-vi
+
+# Move current
 mvc fi() {
 	local b=$(basename $(pwd))
 	cd ..
