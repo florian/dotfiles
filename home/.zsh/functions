@@ -13,8 +13,15 @@ tmp () {
 	cd $dir
 }
 
+# Open vim and execute the CtrlP script when pressing Ctrl+P in the terminal
+ctrlp () {
+  </dev/tty vim -c CtrlP
+}
+zle -N ctrlp
+bindkey "^p" ndkey "^p" ctrlp
+
 # mv current
-mvc () {
+mvc fi() {
 	local b=$(basename $(pwd))
 	cd ..
 	mv $b $1
