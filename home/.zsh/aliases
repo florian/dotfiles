@@ -27,6 +27,9 @@ alias bi="brew install"
 alias bu="brew upgrade"
 alias bs="brew search"
 
+alias cai="brew cask install"
+alias cas="brew cask search"
+
 alias bu=bundle
 alias cp="cp -r"
 alias ea="subl . &"
