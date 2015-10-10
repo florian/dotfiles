@@ -12,6 +12,8 @@ setopt HIST_SAVE_NO_DUPS
 TERM="screen-256color"
 DISABLE_AUTO_TITLE=true
 
+setopt NOBEEP
+
 # This is super awesome:
 # https://tomafro.net/2009/10/tip-cdpath-am-i-the-last-to-know
 cdpath=(~ ~/Dropbox/code ~/code)
