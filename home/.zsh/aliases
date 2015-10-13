@@ -13,7 +13,8 @@ alias n=npm
 alias p=pass
 alias r=rake
 alias s=sudo
-alias t=tmux
+alias t="tmux new-session -d \; split-window -h \; select-pane -L \; attach"
+alias tm=tmux
 alias v=nvim
 alias w=watch
 #     x: extract
