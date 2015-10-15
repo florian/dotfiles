@@ -13,6 +13,11 @@ tmp () {
 	cd $dir
 }
 
+mkcd () {
+	mkdir -p $1
+	cd $1
+}
+
 # Open vim and execute the CtrlP script when pressing Ctrl+P in the terminal
 ctrlp () {
   </dev/tty vim -c CtrlP

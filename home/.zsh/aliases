@@ -44,11 +44,7 @@ alias rs="rspec spec"
 
 alias sudo='sudo ' # Make aliases available to sudo
 
-# oh-my-zsh stuff
-alias mkcd=take
-alias stats=zsh_stats
 alias cat=vimcat
 
 alias reload!=". ~/.zshrc"
 alias r!=reload!
-alias theme=antigen-theme
