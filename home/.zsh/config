@@ -18,7 +18,7 @@ setopt AUTO_CD
 
 # This is super awesome:
 # https://tomafro.net/2009/10/tip-cdpath-am-i-the-last-to-know
-cdpath=(~ ~/Dropbox/code ~/code)
+cdpath=(~ ~/Dropbox/code ~/code ~/Dropbox/Uni/Module)
 
 #source ~/.antigen/antigen.zsh
 #antigen-use oh-my-zsh
