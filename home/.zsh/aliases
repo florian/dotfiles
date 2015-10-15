@@ -22,7 +22,9 @@ alias w=watch
 
 alias ci="component install"
 alias ni="npm install"
+
 alias gi="gem install"
+alias gs="gem search"
 
 alias bi="brew install"
 alias bu="brew upgrade"
