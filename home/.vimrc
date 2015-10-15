@@ -31,6 +31,7 @@ Plugin 'osyo-manga/vim-over'
 Plugin 'mkitt/tabline.vim'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'xolox/vim-session'
+Plugin 'AndrewRadev/splitjoin.vim'
 
 Plugin 'mattn/emmet-vim'
 Plugin 'ap/vim-css-color'
