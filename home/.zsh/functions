@@ -86,6 +86,16 @@ o () {
 	open ${@:-.}
 }
 
+# Attach last session or given session
+ta () {
+	if [[ $# -eq 0 ]]
+	then
+		tmux attach
+	else
+		tmux attach -t $*
+	fi
+}
+
 # ---
 
 colours () {
