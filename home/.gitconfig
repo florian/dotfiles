@@ -50,7 +50,7 @@
 	unmodify = checkout --
 	unstage = reset HEAD
 	w = !git watch
-	watch = !watch git status -sb
+	watch = !watch "clear;git status -sb"
 [credential]
 	helper = osxkeychain
 [help]
