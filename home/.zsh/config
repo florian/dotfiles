@@ -1,3 +1,10 @@
+# Use tmux by default
+if [ -z $TMUX ];
+then
+  tmux new || tmux attach;
+fi
+
+
 fpath=(~/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-completions.git/src $fpath)
 
 COMPLETION_WAITING_DOTS="true"
