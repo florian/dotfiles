@@ -14,7 +14,6 @@ alias p=pass
 alias r=rake
 alias s=sudo
 alias t="tmux new-session -d \; split-window -h \; select-pane -L \; attach"
-alias tm=tmux
 alias v=nvim
 alias watch="watch \"clear;\"" # Fix for TJ's watch
 alias w=watch
@@ -50,3 +49,7 @@ alias cat=vimcat
 
 alias reload!=". ~/.zshrc"
 alias r!=reload!
+
+alias tm=tmux
+alias tv="tmux new-session -d \; split-window -v \; select-pane -K \; attach"
+alias ta="tmux attach -t"
