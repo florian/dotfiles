@@ -23,7 +23,7 @@
 	f = fetch
 	g = grep
 	graph = log --oneline --graph
-	h = help
+	h = helphhh
 	i = init
 	ig = ignore
 	k = !tig
@@ -50,7 +50,7 @@
 	unmodify = checkout --
 	unstage = reset HEAD
 	w = !git watch
-	watch = !watch "clear;git status -sb"
+	watch = "!watch \"clear;git status\""
 [credential]
 	helper = osxkeychain
 [help]
