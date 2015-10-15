@@ -22,7 +22,9 @@ alias w=watch
 #     z: directory jumper
 
 alias ci="component install"
+
 alias ni="npm install"
+alias ns="npm search"
 
 alias gi="gem install"
 alias gs="gem search"
