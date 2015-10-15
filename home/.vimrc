@@ -75,6 +75,7 @@ filetype plugin indent on
 au BufRead,BufNewFile,BufWrite,BufEnter *.json setf javascript
 au BufRead,BufNewFile,BufWrite,BufEnter {Gemfile,Rake,ZZfile,Vagrantfile,Thorfile,Procfile,Capfile,Guardfile,config.ru,.caprc,.irbrc,*.rake} setf ruby
 au BufRead,BufNewFile,BufWrite,BufEnter .zsh/* setf zsh
+au BufRead,BufNewFile,BufWrite,BufEnter *.sqlite setf sql
 au Filetype vim let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'", '`':'`'}
 
 " Always open help in a new tab
