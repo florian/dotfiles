@@ -120,6 +120,9 @@ let g:startify_bookmarks = [
 " NERDTree config
 let NERDTreeShowHidden=1
 
+let g:nerdtree_tabs_open_on_console_startup=1
+let g:nerdtree_tabs_autofind=1
+
 " CtrlP config
 let g:ctrlp_show_hidden=1
 
