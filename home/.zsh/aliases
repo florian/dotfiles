@@ -16,6 +16,7 @@ alias s=sudo
 alias t="tmux new-session -d \; split-window -h \; select-pane -L \; attach"
 alias tm=tmux
 alias v=nvim
+alias watch="watch \"clear;\"" # Fix for TJ's watch
 alias w=watch
 #     x: extract
 #     z: directory jumper
