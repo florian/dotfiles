@@ -141,6 +141,12 @@ let g:Powerline_colorscheme = 'solarized256'
 let g:gitgutter_enabled = 1
 highlight clear SignColumn
 
+" rainbow parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
 " Mapping
 nmap <Space> :
 map - <Leader>
