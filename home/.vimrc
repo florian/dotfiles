@@ -124,7 +124,10 @@ let g:startify_bookmarks = [
 " NERDTree config
 let NERDTreeShowHidden=1
 
-let g:nerdtree_tabs_open_on_console_startup=1
+if !exists("vimpager")
+	let g:nerdtree_tabs_open_on_console_startup=1
+endif
+
 let g:nerdtree_tabs_autofind=1
 
 " CtrlP config
