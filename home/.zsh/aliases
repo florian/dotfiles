@@ -53,3 +53,4 @@ alias r!=reload!
 alias tm=tmux
 alias tv="tmux new-session -d \; split-window -v \; select-pane -K \; attach"
 alias ta="tmux attach -t"
+alias tl="tmux list-sessions"
