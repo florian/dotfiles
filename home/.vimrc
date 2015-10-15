@@ -152,12 +152,16 @@ au Syntax * RainbowParenthesesLoadBraces
 " Mapping
 nmap <Space> :
 map - <Leader>
-map <C-7> :TComment
+map ü :TComment<CR>
 nnoremap <Tab> %
 vnoremap <Tab> %
 command! Rel so ~/.vimrc
 
 " Easier tab handling
+" ö/ä for easy tab switching with a German keyboard
+map ö gT
+map ä gt
+
 " alt+t
 nnoremap † :tabe<CR>
 inoremap † <Esc>:tabe<CR>
