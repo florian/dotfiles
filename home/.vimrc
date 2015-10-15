@@ -29,6 +29,7 @@ Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'osyo-manga/vim-over'
 Plugin 'mkitt/tabline.vim'
+Plugin 'kien/rainbow_parentheses.vim'
 
 Plugin 'mattn/emmet-vim'
 Plugin 'ap/vim-css-color'
