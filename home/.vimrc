@@ -79,6 +79,9 @@ au BufRead,BufNewFile,BufWrite,BufEnter *.zsh/* setf zsh
 au BufRead,BufNewFile,BufWrite,BufEnter *.sqlite setf sql
 au Filetype vim let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'", '`':'`'}
 
+command! CompileLaTeX :! (pdflatex % &>/dev/null) &
+au BufWritePost *.tex silent CompileLaTeX
+
 " Always open help in a new tab
 :cabbrev h tab help
 :cabbrev he help
