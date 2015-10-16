@@ -30,6 +30,7 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'osyo-manga/vim-over'
 Plugin 'mkitt/tabline.vim'
 Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'xolox/vim-misc' " dependency for vim-session
 Plugin 'xolox/vim-session'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'kshenoy/vim-signature'
