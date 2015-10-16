@@ -44,6 +44,7 @@ Plugin 'wavded/vim-stylus'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-rails'
+Plugin 'elzr/vim-json'
 
 call vundle#end()
 filetype plugin indent on
@@ -80,7 +81,6 @@ au VimResized * :wincmd = " Resize split when the terminal is resized
 autocmd BufWritePost .vimrc source % " Automatically reload .vimrc
 filetype off
 filetype plugin indent on
-au BufRead,BufNewFile,BufWrite,BufEnter *.json setf javascript
 au BufRead,BufNewFile,BufWrite,BufEnter {Gemfile,Rake,ZZfile,Vagrantfile,Thorfile,Procfile,Capfile,Guardfile,config.ru,.caprc,.irbrc,*.rake} setf ruby
 au BufRead,BufNewFile,BufWrite,BufEnter *.zsh/* setf zsh
 au BufRead,BufNewFile,BufWrite,BufEnter *.sqlite setf sql
