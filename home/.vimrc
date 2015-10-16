@@ -34,6 +34,7 @@ Plugin 'xolox/vim-misc' " dependency for vim-session
 Plugin 'xolox/vim-session'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'kshenoy/vim-signature'
+Plugin 'vim-scripts/YankRing.vim'
 
 Plugin 'mattn/emmet-vim'
 Plugin 'ap/vim-css-color'
