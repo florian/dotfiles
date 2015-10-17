@@ -39,7 +39,7 @@ Plugin 'sickill/vim-pasta'
 Plugin 'tommcdo/vim-lion'
 
 Plugin 'mattn/emmet-vim'
-Plugin 'ap/vim-css-color'
+Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'wavded/vim-stylus'
 Plugin 'vim-ruby/vim-ruby'
