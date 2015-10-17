@@ -23,7 +23,7 @@
 	f = fetch
 	g = grep
 	graph = log --oneline --graph
-	h = helphhh
+	h = help
 	i = init
 	ig = ignore
 	k = !tig
