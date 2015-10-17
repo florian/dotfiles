@@ -38,6 +38,7 @@ Plugin 'vim-scripts/YankRing.vim'
 Plugin 'sickill/vim-pasta'
 Plugin 'tommcdo/vim-lion'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+Plugin 'bkad/CamelCaseMotion'
 
 Plugin 'mattn/emmet-vim'
 Plugin 'gorodinskiy/vim-coloresque'
