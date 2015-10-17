@@ -39,6 +39,7 @@ Plugin 'sickill/vim-pasta'
 Plugin 'tommcdo/vim-lion'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'bkad/CamelCaseMotion'
+Plugin 'matze/vim-move'
 
 Plugin 'mattn/emmet-vim'
 Plugin 'gorodinskiy/vim-coloresque'
