@@ -154,6 +154,9 @@ highlight clear SignColumn
 " vim session manager
 let g:session_autosave = 'no'
 
+" vim-move
+let g:move_key_modifier = 'M'
+
 " rainbow parentheses
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
