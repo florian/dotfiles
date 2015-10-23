@@ -41,6 +41,7 @@ Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'bkad/CamelCaseMotion'
 Plugin 'matze/vim-move'
 Plugin 'mbbill/undotree'
+Plugin 'junegunn/vim-peekaboo'
 
 Plugin 'mattn/emmet-vim'
 Plugin 'gorodinskiy/vim-coloresque'
