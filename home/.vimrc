@@ -42,6 +42,7 @@ Plugin 'bkad/CamelCaseMotion'
 Plugin 'matze/vim-move'
 Plugin 'mbbill/undotree'
 Plugin 'junegunn/vim-peekaboo'
+Plugin 'bogado/file-line'
 
 Plugin 'mattn/emmet-vim'
 Plugin 'gorodinskiy/vim-coloresque'
