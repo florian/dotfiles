@@ -44,7 +44,10 @@ alias mk="mkdir -p"
 alias sn="sudo npm"
 alias rs="rspec spec"
 
-alias sudo='sudo ' # Make aliases available to sudo
+alias sudo="sudo " # Make aliases available to sudo
+
+alias cmon="sudo !!"
+alias please="sudo !!"
 
 alias cat=vimcat
 
