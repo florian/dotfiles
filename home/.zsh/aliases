@@ -23,6 +23,7 @@ alias w=watch
 alias ci="component install"
 
 alias ni="npm install"
+alias nig="npm install -g"
 alias ns="npm search"
 
 alias gi="gem install"
