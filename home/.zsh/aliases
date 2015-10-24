@@ -33,6 +33,9 @@ alias bi="brew install"
 alias bu="brew upgrade"
 alias bs="brew search"
 
+alias boi="bower install"
+alias bos="bower search"
+
 alias cai="brew cask install"
 alias cas="brew cask search"
 
