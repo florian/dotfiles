@@ -96,6 +96,8 @@ au Filetype vim let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'", '`':'`'}
 command! CompileLaTeX :! (pdflatex % &>/dev/null) &
 au BufWritePost *.tex silent CompileLaTeX
 
+command! NT NERDTreeTabsToggle
+
 " Always open help in a new tab
 :cabbrev h tab help
 :cabbrev he help
