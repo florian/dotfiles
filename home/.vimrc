@@ -97,6 +97,7 @@ command! CompileLaTeX :! (pdflatex % &>/dev/null) &
 au BufWritePost *.tex silent CompileLaTeX
 
 command! NT NERDTreeTabsToggle
+map § :NERDTreeTabsToggle<CR>
 
 " Always open help in a new tab
 :cabbrev h tab help
