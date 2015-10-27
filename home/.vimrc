@@ -43,6 +43,7 @@ Plugin 'matze/vim-move'
 Plugin 'mbbill/undotree'
 Plugin 'junegunn/vim-peekaboo'
 Plugin 'bogado/file-line'
+Plugin 'xuhdev/vim-latex-live-preview'
 
 Plugin 'mattn/emmet-vim'
 Plugin 'gorodinskiy/vim-coloresque'
@@ -168,6 +169,9 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+" vim-latex-live-preview
+let g:livepreview_previewer = 'open -a Skim'
 
 " Mapping
 nmap <Space> :
