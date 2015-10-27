@@ -34,6 +34,7 @@ alias gs="gem search"
 alias bi="brew install"
 alias bu="brew upgrade"
 alias bs="brew search"
+alias binfo="brew info"
 
 alias boi="bower install"
 alias bos="bower search"
