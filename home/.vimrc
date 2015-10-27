@@ -37,7 +37,6 @@ Plugin 'vim-scripts/YankRing.vim'
 Plugin 'sickill/vim-pasta'
 Plugin 'tommcdo/vim-lion'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
-Plugin 'bkad/CamelCaseMotion'
 Plugin 'matze/vim-move'
 Plugin 'mbbill/undotree'
 Plugin 'junegunn/vim-peekaboo'
@@ -149,6 +148,10 @@ let g:nerdtree_tabs_autofind=1
 
 " CtrlP config
 let g:ctrlp_show_hidden=1
+map <C-p> :CtrlP<CR>
+
+" YankRing config
+map _ :YRShow<CR>
 
 " Powerline config
 let g:Powerline_colorscheme = 'solarized256'
