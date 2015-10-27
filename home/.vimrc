@@ -29,7 +29,6 @@ Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'osyo-manga/vim-over'
 Plugin 'mkitt/tabline.vim'
-Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'xolox/vim-misc' " dependency for vim-session
 Plugin 'xolox/vim-session'
 Plugin 'AndrewRadev/splitjoin.vim'
@@ -163,12 +162,6 @@ let g:session_autosave = 'no'
 
 " vim-move
 let g:move_key_modifier = 'M'
-
-" rainbow parentheses
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
 
 " vim-latex-live-preview
 let g:livepreview_previewer = 'open -a Skim'
