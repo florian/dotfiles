@@ -33,7 +33,7 @@ Plugin 'xolox/vim-misc' " dependency for vim-session
 Plugin 'xolox/vim-session'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'kshenoy/vim-signature'
-Plugin 'maxbrunsfeld/vim-yankstack'
+Plugin 'vim-scripts/YankRing.vim'
 Plugin 'sickill/vim-pasta'
 Plugin 'tommcdo/vim-lion'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
@@ -196,7 +196,7 @@ inoremap ∑ <Esc>:tabc<CR>
 
 " alt+s
 nnoremap ‚ :w<CR>
-inoremap ‚ <Esc>:w<CR>
+inoremap ‚ <Esc>:tabc<CR>
 
 " Changing the case
 nmap <Leader>u gUl
