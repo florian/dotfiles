@@ -1,4 +1,4 @@
-set nocompatible " Be Improved
+set nocompatible " Be Vi IMproved
 
 " Plugin managment with Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -59,49 +59,43 @@ filetype plugin indent on
 " Basics
 set mouse=a
 set clipboard=unnamed
-set laststatus=2   " Always show the statusline
-if !has('nvim') " Set by default by nvim
-	set encoding=utf-8 " Necessary to show Unicode glyphs
+set laststatus=2              " Always show the statusline
+if !has('nvim')               " Set by default by nvim
+    set encoding=utf-8        " Necessary to show Unicode glyphs
 endif
-set noeb vb t_vb=  " Disable sound
-set nojoinspaces   " No double space when joining lines
+set noeb vb t_vb=             " Disable sound
+set nojoinspaces              " No double space when joining lines
 set whichwrap=b,s,[,],<,>,h,l " Allow cursor to wrap between lines
 set showcmd
-set shortmess+=I   " Hide Vim startup message
-set autoread
-set backspace=2
+set shortmess+=I              " Hide Vim startup message
+set autoread                  " Update Vim buffer when a file changed
+set backspace=2               " Make backspace work like in other programs
 
-" Color scheme
+                              " Color scheme
 set background=dark
 colorscheme solarized
 
 " Layout stuff
 syntax enable
 set number
-set cul " Highlight the current line
+set cul                   " Highlight the current line
 set textwidth=80
-set scrolloff=5 " Scroll distance at the top / bottom
+set scrolloff=5           " Scroll distance at the top / bottom
 set wildmenu
 au VimResized * :wincmd = " Resize split when the terminal is resized
 
+" Color tabs
+hi TabLine      guifg=#333 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
+hi TabLineSel   guifg=#666 guibg=#222 gui=bold ctermfg=231 ctermbg=4 cterm=bold
+hi TabLineFill  guifg=#999 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
+
 " File types
-autocmd BufWritePost .vimrc source % " Automatically reload .vimrc
 filetype off
 filetype plugin indent on
+autocmd BufWritePost .vimrc source % " Automatically reload .vimrc
 au BufRead,BufNewFile,BufWrite,BufEnter {Gemfile,Rake,ZZfile,Vagrantfile,Thorfile,Procfile,Capfile,Guardfile,config.ru,.caprc,.irbrc,*.rake} setf ruby
 au BufRead,BufNewFile,BufWrite,BufEnter *.zsh/* setf zsh
 au BufRead,BufNewFile,BufWrite,BufEnter *.sqlite setf sql
-au Filetype vim let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'", '`':'`'}
-
-command! CompileLaTeX :! (pdflatex % &>/dev/null) &
-au BufWritePost *.tex silent CompileLaTeX
-
-command! NT NERDTreeTabsToggle
-map § :NERDTreeTabsToggle<CR>
-
-" Always open help in a new tab
-:cabbrev h tab help
-:cabbrev he help
 
 " Backup
 set noswapfile
@@ -120,7 +114,76 @@ set incsearch " Search as you type
 set gdefault  " Always use the g flag for search
 
 " Matching
-set matchpairs+=<:>
+set matchpairs+=<:> " Make % work for <>
+
+" splits
+set splitbelow
+set splitright
+
+" change cursor in insert mode
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
+" https://gist.github.com/andyfowler/1195581
+if exists('$TMUX')
+  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+else
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+endif
+
+" --- Custom key mappings ---
+
+nmap <Space> :
+map - <Leader>
+map ü :TComment<CR>
+nnoremap <Tab> %
+vnoremap <Tab> %
+command! Rel so ~/.vimrc
+
+" ö/ä for easy tab switching with a German keyboard
+map ö gT
+map ä gt
+
+" Easier tab handling
+" alt+t
+nnoremap † :tabe<CR>
+inoremap † <Esc>:tabe<CR>
+
+" alt+w
+nnoremap ∑ :tabc<CR>
+inoremap ∑ <Esc>:tabc<CR>
+
+" alt+s
+nnoremap ‚ :w<CR>
+inoremap ‚ <Esc>:tabc<CR>
+
+" Changing the case
+nmap <Leader>u gUl
+nmap <leader>l gul
+
+map <Down> gj
+map <Up> gk
+
+" Navigating in wrapped lines
+if !exists('vimpager')
+	nnoremap j gj
+	nnoremap k gk
+endif
+
+command! NT NERDTreeTabsToggle
+map § :NERDTreeTabsToggle<CR>
+
+" Always open help in a new tab
+:cabbrev h tab help
+:cabbrev he help
+
+" --- Other vim event system stuff ---
+
+" Auto compile LaTeX when a file is saved
+command! CompileLaTeX :! (pdflatex % &>/dev/null) &
+au BufWritePost *.tex silent CompileLaTeX
+
+" --- Plugin Configs ---
 
 " Startify Plugin
 let g:startify_list_order = [
@@ -146,6 +209,9 @@ if !exists("vimpager")
 endif
 
 let g:nerdtree_tabs_autofind=1
+
+" AutoPairs config
+au Filetype vim let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'", '`':'`'}
 
 " CtrlP config
 let g:ctrlp_show_hidden=1
@@ -174,61 +240,3 @@ let g:livepreview_previewer = 'open -a Skim'
 
 " Align plugin
 map <Leader>i <Plug>AM_tt " Just to silent the error message
-
-" Mapping
-nmap <Space> :
-map - <Leader>
-map ü :TComment<CR>
-nnoremap <Tab> %
-vnoremap <Tab> %
-command! Rel so ~/.vimrc
-
-" Easier tab handling
-" ö/ä for easy tab switching with a German keyboard
-map ö gT
-map ä gt
-
-" alt+t
-nnoremap † :tabe<CR>
-inoremap † <Esc>:tabe<CR>
-
-" alt+w
-nnoremap ∑ :tabc<CR>
-inoremap ∑ <Esc>:tabc<CR>
-
-" alt+s
-nnoremap ‚ :w<CR>
-inoremap ‚ <Esc>:tabc<CR>
-
-" Changing the case
-nmap <Leader>u gUl
-nmap <leader>l gul
-
-" Navigating in wrapped lines
-if !exists('vimpager')
-	nnoremap j gj
-	nnoremap k gk
-endif
-
-map <Down> gj
-map <Up> gk
-
-" splits
-set splitbelow
-set splitright
-
-" color the tabs
-hi TabLine      guifg=#333 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
-hi TabLineSel   guifg=#666 guibg=#222 gui=bold ctermfg=231 ctermbg=4 cterm=bold
-hi TabLineFill  guifg=#999 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
-
-" change cursor in insert mode
-let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
-" https://gist.github.com/andyfowler/1195581
-if exists('$TMUX')
-  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
-else
-  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-endif
