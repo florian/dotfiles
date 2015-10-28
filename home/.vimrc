@@ -194,6 +194,10 @@ inoremap † <Esc>:tabe<CR>
 nnoremap ∑ :tabc<CR>
 inoremap ∑ <Esc>:tabc<CR>
 
+" alt+s
+nnoremap ‚ :w<CR>
+inoremap ‚ <Esc>:w<CR>
+
 " Changing the case
 nmap <Leader>u gUl
 nmap <leader>l gul
