@@ -41,7 +41,7 @@ Plugin 'matze/vim-move'
 Plugin 'mbbill/undotree'
 Plugin 'junegunn/vim-peekaboo'
 Plugin 'bogado/file-line'
-Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'vim-scripts/Align'
 
 Plugin 'mattn/emmet-vim'
 Plugin 'gorodinskiy/vim-coloresque'
@@ -51,6 +51,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-rails'
 Plugin 'elzr/vim-json'
+Plugin 'xuhdev/vim-latex-live-preview'
 
 call vundle#end()
 filetype plugin indent on
