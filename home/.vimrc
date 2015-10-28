@@ -153,6 +153,8 @@ map <C-p> :CtrlP<CR>
 
 " YankRing config
 map _ :YRShow<CR>
+let g:yankring_replace_n_pkey = 'π' " alt+p
+let g:yankring_replace_n_nkey = '•' " alt+u
 
 " Powerline config
 let g:Powerline_colorscheme = 'solarized256'
