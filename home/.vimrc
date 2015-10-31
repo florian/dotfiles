@@ -237,6 +237,7 @@ let g:move_key_modifier = 'M'
 
 " vim-latex-live-preview
 let g:livepreview_previewer = 'open -a Skim'
+autocmd Filetype tex setl updatetime=1000
 
 " Align plugin
 map <Leader>i <Plug>AM_tt " Just to silent the error message
