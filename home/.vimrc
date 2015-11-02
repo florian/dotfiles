@@ -203,6 +203,7 @@ let g:startify_bookmarks = [
 
 " NERDTree config
 let NERDTreeShowHidden=1
+let NERDTreeIgnore = ['\.DS_Store', '\.git$']
 
 if !exists("vimpager")
 	let g:nerdtree_tabs_open_on_console_startup=1
