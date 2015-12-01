@@ -19,6 +19,7 @@
 	cob = checkout -b
 	cof = checkout -f
 	com = checkout master
+	cos = checkout stable
 	d = diff --word-diff=color
 	f = fetch
 	g = grep
