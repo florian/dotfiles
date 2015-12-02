@@ -50,6 +50,8 @@ alias mk="mkdir -p"
 alias sn="sudo npm"
 alias rs="rspec spec"
 
+alias lai="sudo tlmgr install" # Install LaTeX package
+
 alias sudo="sudo " # Make aliases available to sudo
 
 alias cmon="sudo !!"
