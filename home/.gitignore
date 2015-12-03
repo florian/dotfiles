@@ -9,3 +9,4 @@ log/
 node_modules
 *.aux
 *.fdb_latexmk
+*.fls
