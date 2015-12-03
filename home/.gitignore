@@ -8,3 +8,4 @@ log/
 *.swp
 node_modules
 *.aux
+*.fdb_latexmk
