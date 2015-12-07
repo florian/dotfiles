@@ -10,3 +10,4 @@ node_modules
 *.aux
 *.fdb_latexmk
 *.fls
+octave-workspace
