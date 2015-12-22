@@ -1,13 +1,28 @@
-*.sublime-project
-*.sublime-workspace
+# General stuff
 TODO
 tmp/
 log/
 *.log
+
+# OS X
 .DS_Store
+
+# Vim
 *.swp
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# node
 node_modules
+
+# LaTeX
 *.aux
-*.fdb_latexmk
+*.log
+*.out
 *.fls
+*.fdb_latexmk
+
+# Octave / Matlab
 octave-workspace
