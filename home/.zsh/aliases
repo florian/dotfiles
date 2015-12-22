@@ -51,6 +51,7 @@ alias sn="sudo npm"
 alias rs="rspec spec"
 
 alias lai="sudo tlmgr install" # Install LaTeX package
+alias lawatch="latexmk -pvc -pdf"
 
 alias sudo="sudo " # Make aliases available to sudo
 
