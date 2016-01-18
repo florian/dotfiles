@@ -13,5 +13,3 @@ end
 alias :r :reload!
 
 def l; load 'app.rb' end
-    end
-end
