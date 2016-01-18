@@ -97,6 +97,9 @@ au BufRead,BufNewFile,BufWrite,BufEnter {Gemfile,Rake,ZZfile,Vagrantfile,Thorfil
 au BufRead,BufNewFile,BufWrite,BufEnter *.zsh/* setf zsh
 au BufRead,BufNewFile,BufWrite,BufEnter *.sqlite setf sql
 
+" Delete all trailing whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
+
 " Backup
 set noswapfile
 set nobackup
