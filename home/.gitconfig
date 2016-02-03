@@ -33,6 +33,7 @@
 	m = merge
 	p = push
 	pl = pull
+	plom = pull origin master
 	pt = !git push && git  push --tags
 	r = reset
 	rb = rebase
