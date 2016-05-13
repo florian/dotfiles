@@ -69,3 +69,6 @@
 	added = yellow
 	changed = green
 	untracked = cyan
+[pager]
+	l = less
+	d = less
