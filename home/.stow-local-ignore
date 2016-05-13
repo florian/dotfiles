@@ -1,7 +1,2 @@
-# package-local Stow ignore list
-#
-# The builtin Stow ignore list ignores .gitignore. However, for the 'git'
-# package it is desirable to symlink install .gitignore. This empty
-# package-local ignore list ensures .gitignore is not ignored.
-
+# We need this to make sure that stow doesn't ignore .gitignore
 \.git
