@@ -5,7 +5,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'mhinz/vim-startify'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
@@ -44,6 +43,9 @@ Plugin 'bogado/file-line'
 Plugin 'vim-scripts/Align'
 Plugin 'airblade/vim-rooter'
 
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'flazz/vim-colorschemes'
+
 Plugin 'mattn/emmet-vim'
 Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'kchmck/vim-coffee-script'
@@ -75,7 +77,7 @@ set backspace=2               " Make backspace work like in other programs
 
                               " Color scheme
 set background=dark
-colorscheme solarized
+colorscheme tomorrow-night
 
 " Layout stuff
 syntax enable
