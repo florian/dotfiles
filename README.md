@@ -37,7 +37,6 @@ There's a billion other symlink managers and you can probably use many of them f
 
 * iTerm2
 * Dark / light [solarized](http://ethanschoonover.com/solarized) theme
-* oh-my-zsh
 * Custom `$PROMPT`
 * zsh-syntax-highlighting plugin
 
