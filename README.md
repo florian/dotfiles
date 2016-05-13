@@ -1,7 +1,7 @@
 # dotfiles \o/
 
-OS              | Terminal | Shell | Editor               | Version control | Multiplexer
---------------- | -------- | ----- | -------------------- | --------------  | -----------
+OS                | Terminal | Shell | Editor               | Version control | Multiplexer
+------------------| ---------| ------| ---------------------| ----------------| -----------
  El Capitan      | iTerm2   | zsh   |  Vim                 | git             | tmux
 
 Feel free to grab what you like!
@@ -14,7 +14,7 @@ First you'll need to clone the repo
 $ git clone https://github.com/florian/dotfiles.git ~/.dotfiles && cd ~/.dotfiles
 ```
 
-Next you'll need to symlink the dotfiles that you want to use. I personally use [GNU Stow](https://www.gnu.org/software/stow/) for that and it works really well. 
+Next you'll need to symlink the dotfiles that you want to use. I personally use [GNU Stow](https://www.gnu.org/software/stow/) for that and it works really well.
 
 ```sh
 $ stow -t ~ git tmux vim zsh ruby
