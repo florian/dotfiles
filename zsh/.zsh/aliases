@@ -1,8 +1,10 @@
+#     a
 alias b=brew
 alias c=component
-#     d: dirs -v # oh-my-zsh alias
-#     e: $EDITOR
-#     g: git
+#     d
+#     e: power alias - editor
+#     f
+#     g: power alias - git
 alias h=heroku
 alias i="brew install"
 alias j=jobs
@@ -10,15 +12,17 @@ alias k="killall -9"
 alias l="ls -Gp"
 alias m=make
 alias n=npm
-#     o: open
-alias p=pass
+#     o: power alias - open
+#     p
+#     q
 alias r=rake
 alias s=sudo
 alias t="tmux new-session -d \; split-window -h \; select-pane -L \; attach"
+#     u
 alias v=nvim
 alias watch="watch \"clear;\"" # Fix for TJ's watch
 alias w=watch
-#     x: extract
+#     x
 #     z: directory jumper
 
 alias ci="component install"
