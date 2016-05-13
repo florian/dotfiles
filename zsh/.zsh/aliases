@@ -1,4 +1,4 @@
-#     a
+alias a="sudo !!"
 alias b=brew
 alias c=component
 #     d
