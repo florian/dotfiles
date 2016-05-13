@@ -41,7 +41,7 @@ PATH="$HOME/.bin:$PATH"
 autoload -U colors && colors
 PROMPT="%{$fg[yellow]%}%~%{$reset_color%} %{$fg[red]%}% $ %{$reset_color%}"
 
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zshstore/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
 # Fink
