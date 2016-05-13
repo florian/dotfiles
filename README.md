@@ -8,12 +8,19 @@ Feel free to grab what you like!
 
 ## Installation
 
-Get [homesick](http://github.com/technicalpickles/homesick) and enjoy.
+First you'll need to clone the repo
 
 ```sh
-$ homesick clone js-coder/dotfiles
-$ homesick symlink js-coder/dotfiles
+$ git clone https://github.com/florian/dotfiles.git ~/.dotfiles && cd ~/.dotfiles
 ```
+
+Next you'll need to symlink the dotfiles that you want to use. I personally use [GNU Stow](https://www.gnu.org/software/stow/) for that and it works really well. 
+
+```sh
+$ stow -t ~ home
+```
+
+There's a billion other symlink managers and you can probably use many of them for these dotfiles as well, I used [homesick](https://github.com/technicalpickles/homesick) before.
 
 ## Screenshots
 
