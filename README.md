@@ -17,7 +17,7 @@ $ git clone https://github.com/florian/dotfiles.git ~/.dotfiles && cd ~/.dotfile
 Next you'll need to symlink the dotfiles that you want to use. I personally use [GNU Stow](https://www.gnu.org/software/stow/) for that and it works really well. 
 
 ```sh
-$ stow -t ~ home
+$ stow -t ~ git tmux vim zsh ruby
 ```
 
 There's a billion other symlink managers and you can probably use many of them for these dotfiles as well, I used [homesick](https://github.com/technicalpickles/homesick) before.
