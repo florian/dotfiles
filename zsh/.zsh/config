@@ -44,5 +44,8 @@ PROMPT="%{$fg[yellow]%}%~%{$reset_color%} %{$fg[red]%}% $ %{$reset_color%}"
 source ~/.zshstore/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
+
 # Fink
 . /sw/bin/init.sh

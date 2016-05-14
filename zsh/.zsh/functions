@@ -22,6 +22,24 @@ mkcd () {
 	cd $1
 }
 
+git_prompt() {
+ ref=$(git symbolic-ref HEAD | cut -d'/' -f3)
+ echo $ref
+}
+
+showgit () {
+	setopt PROMPT_SUBST
+
+	function precmd {
+		PROMPT="%{$fg[yellow]%}%~%{$reset_color%}%{$fg[blue]%} [$(git_prompt)] %{$fg[red]%}% $ %{$reset_color%}"
+	}
+
+	autoload -U promptinit
+	promptinit
+}
+
+alias sg=showgit
+
 # Open vim and execute the CtrlP script when pressing Ctrl+P in the terminal
 ctrlp () {
   </dev/tty vim -c CtrlP
