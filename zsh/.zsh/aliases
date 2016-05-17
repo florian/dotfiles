@@ -1,6 +1,6 @@
 alias a="sudo !!"
 alias b=brew
-alias c=component
+alias c=clear
 #     d
 #     e: power alias - editor
 #     f

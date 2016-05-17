@@ -46,6 +46,7 @@ Plugin 'airblade/vim-rooter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'flazz/vim-colorschemes'
 
+Plugin 'pangloss/vim-javascript'
 Plugin 'mattn/emmet-vim'
 Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'kchmck/vim-coffee-script'
