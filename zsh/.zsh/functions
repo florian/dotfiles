@@ -118,6 +118,15 @@ ta () {
 	fi
 }
 
+# LaTeX
+
+lclean () {
+	rm  *.aux
+	rm  *.log
+	rm  *.fdb_latexmk
+	rm  *.fls
+}
+
 # ---
 
 colours () {
