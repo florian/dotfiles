@@ -25,6 +25,8 @@ setopt AUTO_CD
 
 setopt extended_glob
 
+setopt null_glob
+
 # This is super awesome:
 # https://tomafro.net/2009/10/tip-cdpath-am-i-the-last-to-know
 cdpath=(~ ~/Dropbox/code ~/code ~/Dropbox/Uni/Module)

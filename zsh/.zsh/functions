@@ -121,10 +121,7 @@ ta () {
 # LaTeX
 
 lclean () {
-	rm  *.aux
-	rm  *.log
-	rm  *.fdb_latexmk
-	rm  *.fls
+	rm -rf *.aux *.log *.fdb_latexmk *.fls *.out
 }
 
 # ---
