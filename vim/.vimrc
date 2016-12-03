@@ -251,3 +251,7 @@ command! Latex LLPStartPreview
 
 " Align plugin
 map <Leader>i <Plug>AM_tt " Just to silent the error message
+
+" LaTeX stuff
+
+ia itemize \begin{itemize}<CR>\end{itemize}<CR><ESC>2ko\item<ESC>>>A
