@@ -76,3 +76,5 @@ alias ts="tmux switch -t"
 alias tfix="tmux detach -a"
 
 alias jn="jupyter notebook"
+
+alias path="pwd | pbcopy"
