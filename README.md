@@ -22,6 +22,21 @@ $ stow -t ~ git tmux vim zsh ruby
 
 There's a billion other symlink managers and you can probably use many of them for these dotfiles as well, I used [homesick](https://github.com/technicalpickles/homesick) before.
 
+Afterwards:
+
+1. Install [homebrew](https://brew.sh/)
+2. Set zsh as the default shell:
+```sh
+$ chsh -s /bin/zsh
+```
+3. Install more dependencies:
+```sh
+$ mkcd .zshstore
+$ git clone https://github.com/zsh-users/zsh-syntax-highlighting
+$ git clone https://github.com/zsh-users/zsh-autosuggestions
+$ git clone https://github.com/rupa/z
+```
+
 ## Screenshots
 
 ### Editor
