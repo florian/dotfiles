@@ -39,6 +39,7 @@ $ git clone https://github.com/rupa/z
 4. Change the [iTerm color scheme](http://iterm2colorschemes.com/)
 5. Install [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start)
 6. Open Vim and run `:PluginInstall`
+7. `brew install vimpager`
 
 ## Screenshots
 
