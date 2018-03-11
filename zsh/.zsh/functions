@@ -11,6 +11,10 @@ uni () {
 	cd ~/Dropbox/Uni/Module/$1
 }
 
+tutor () {
+	cd ~/Dropbox/Uni/Tutor/$1
+}
+
 tmp () {
 	local dir=~/tmp/$1
 	mkdir -p $dir

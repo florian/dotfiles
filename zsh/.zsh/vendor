@@ -8,7 +8,7 @@
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 
 # z jumper
-. `brew --prefix`/etc/profile.d/z.sh
+source ~/.zshstore/z/z.sh
 
 # zsh substring search
 bindkey "$terminfo[kcuu1]" history-substring-search-up
