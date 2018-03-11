@@ -4,7 +4,7 @@ tmp/
 log/
 *.log
 
-# OS X
+# macOS
 .DS_Store
 
 # Vim
@@ -16,6 +16,7 @@ log/
 
 # node
 node_modules
+package-lock.json
 
 # LaTeX
 *.aux
@@ -23,6 +24,17 @@ node_modules
 *.out
 *.fls
 *.fdb_latexmk
+*.xdv
 
 # Octave / Matlab
 octave-workspace
+
+# Python
+*.pyc
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+
+# C++
+cmake-build-debug/
