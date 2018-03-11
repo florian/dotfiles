@@ -31,6 +31,7 @@
 	l = log --pretty=format:'%C(yellow)%h%Creset – %s %Cgreen(%cr)%Creset' --date=relative
 	lg = !git l --graph
 	m = merge
+	o = "!open ."
 	p = push
 	pl = pull
 	plom = pull origin master
