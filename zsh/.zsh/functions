@@ -11,6 +11,10 @@ uni () {
 	cd ~/Dropbox/Uni/Module/$1
 }
 
+ma () {
+	cd ~/Dropbox/Uni/Module/Masterarbeit/$1
+}
+
 tutor () {
 	cd ~/Dropbox/Uni/Tutor/$1
 }
@@ -125,7 +129,7 @@ ta () {
 # LaTeX
 
 lclean () {
-	rm -rf *.aux *.log *.fdb_latexmk *.fls *.out
+	rm -rf *.aux *.log *.fdb_latexmk *.fls *.out *.toc *.bak
 }
 
 # ---

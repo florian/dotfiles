@@ -211,7 +211,7 @@ let g:startify_bookmarks = [
 
 " NERDTree config
 let NERDTreeShowHidden=1
-let NERDTreeIgnore = ['\.DS_Store', '\.git$', '\.pyc$']
+let NERDTreeIgnore = ['\.DS_Store', '\.git$', '\.pyc$', '\.aux$', '\.bbl$', '\.blg$', '\.toc$', '\.out$', '\.fls$', '\.fdb_latexmk$', '\.log$']
 
 if !exists("vimpager")
 	let g:nerdtree_tabs_open_on_console_startup=1

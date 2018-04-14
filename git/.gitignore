@@ -25,6 +25,9 @@ package-lock.json
 *.fls
 *.fdb_latexmk
 *.xdv
+*.bbl
+*.blg
+*.toc
 
 # Octave / Matlab
 octave-workspace
