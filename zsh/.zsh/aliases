@@ -78,3 +78,7 @@ alias tfix="tmux detach -a"
 alias jn="jupyter notebook"
 
 alias path="pwd | pbcopy"
+
+alias js="jekyll server"
+alias jsd="jekyll server --drafts"
+alias jb="jekyll build"
