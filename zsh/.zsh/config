@@ -53,4 +53,4 @@ bindkey "^[[B" history-beginning-search-forward
 # . /sw/bin/init.sh
 
 # RVM
-source /Users/florian/.rvm/scripts/rvm
+#source /Users/florian/.rvm/scripts/rvm

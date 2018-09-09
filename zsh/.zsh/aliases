@@ -64,7 +64,7 @@ alias sudo="sudo " # Make aliases available to sudo
 alias cmon="sudo !!"
 alias please="sudo !!"
 
-alias cat=vimcat
+alias cat=bat
 
 alias reload!=". ~/.zshrc"
 alias r!=reload!
