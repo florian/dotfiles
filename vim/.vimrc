@@ -84,7 +84,7 @@ colorscheme tomorrow-night
 syntax enable
 set number
 set cul                   " Highlight the current line
-set textwidth=80
+"set textwidth=80
 set scrolloff=5           " Scroll distance at the top / bottom
 set wildmenu
 au VimResized * :wincmd = " Resize split when the terminal is resized
