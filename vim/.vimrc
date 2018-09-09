@@ -84,15 +84,15 @@ colorscheme tomorrow-night
 syntax enable
 set number
 set cul                   " Highlight the current line
-set textwidth=80
+"set textwidth=80
 set scrolloff=5           " Scroll distance at the top / bottom
 set wildmenu
 au VimResized * :wincmd = " Resize split when the terminal is resized
 
 " Color tabs
-hi TabLine      guifg=#333 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
-hi TabLineSel   guifg=#666 guibg=#222 gui=bold ctermfg=231 ctermbg=4 cterm=bold
-hi TabLineFill  guifg=#999 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
+" hi TabLine      guifg=#333 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
+" hi TabLineSel   guifg=#666 guibg=#222 gui=bold ctermfg=231 ctermbg=4 cterm=bold
+" hi TabLineFill  guifg=#999 guibg=#222 gui=none ctermfg=254 ctermbg=238 cterm=none
 
 " File types
 filetype off

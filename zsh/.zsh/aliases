@@ -7,7 +7,7 @@ alias c=clear
 #     g: power alias - git
 alias h=heroku
 alias i="brew install"
-alias j=jobs
+alias j=jekyll
 alias k="killall -9"
 alias l="ls -Gp"
 alias m=make
@@ -19,7 +19,7 @@ alias r=rake
 alias s=sudo
 alias t="tmux new-session -d \; split-window -h \; select-pane -L \; attach"
 #     u
-alias v=nvim
+alias v=vim
 alias watch="watch \"clear;\"" # Fix for TJ's watch
 alias w=watch
 #     x
@@ -64,7 +64,7 @@ alias sudo="sudo " # Make aliases available to sudo
 alias cmon="sudo !!"
 alias please="sudo !!"
 
-alias cat=vimcat
+alias cat=bat
 
 alias reload!=". ~/.zshrc"
 alias r!=reload!
@@ -78,3 +78,7 @@ alias tfix="tmux detach -a"
 alias jn="jupyter notebook"
 
 alias path="pwd | pbcopy"
+
+alias js="jekyll server"
+alias jsd="jekyll server --drafts"
+alias jb="jekyll build"
