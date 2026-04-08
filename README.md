@@ -2,7 +2,7 @@
 
 OS                | Terminal | Shell | Editor               | Version control | Multiplexer
 ------------------| ---------| ------| ---------------------| ----------------| -----------
- El Capitan      | iTerm2   | zsh   |  Vim                 | git             | tmux
+ macOS      | iTerm2   | zsh   |  Vim                 | git             | tmux
 
 Feel free to grab what you like!
 
