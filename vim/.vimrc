@@ -256,3 +256,6 @@ map <Leader>i <Plug>AM_tt " Just to silent the error message
 
 ia itemize \begin{itemize}<CR>\end{itemize}<ESC>ko\item<ESC>>>A
 ia ii \item
+
+" Hack for not showing underline in cursorline.
+hi CursorLineNr    term=bold cterm=bold ctermfg=012 gui=bold
